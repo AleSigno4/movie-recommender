@@ -10,8 +10,8 @@ __pycache__/             # file compilati Python
 # --------------------------
 # Frontend / React
 # --------------------------
-frontend/node_modules/            # dipendenze installate con npm
-frontend/.next/                   # build folder Next.js
+node_modules/            # dipendenze installate con npm
+.next/                   # build folder Next.js
 dist/                    # eventuali build frontend
 .env.local               # variabili ambiente frontend
 *.log                    # log vari generici

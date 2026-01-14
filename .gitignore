@@ -1,23 +1,23 @@
 # --------------------------
 # Python / Backend
 # --------------------------
-venv/                    # virtual environment, dipendenze locali
-__pycache__/             # file compilati Python
-*.pyc                    # file compilati Python
-.env                     # file con chiavi API / credenziali
-*.sqlite3                # DB locale se lo usi
+backend/venv/
+**/__pycache__/
+backend/*.pyc
+backend/.env
+backend/*.sqlite3
 
 # --------------------------
 # Frontend / React
 # --------------------------
-node_modules/            # dipendenze installate con npm
-.next/                   # build folder Next.js
-dist/                    # eventuali build frontend
-.env.local               # variabili ambiente frontend
-*.log                    # log vari generici
+**/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/.env.local
+*.log
 
 # --------------------------
 # Dataset / dati locali
 # --------------------------
-data/*.csv               # dataset locali grandi (opzionale se non vuoi push)
-data/*.json              # dati di test locali
+backend/data/*.csv
+backend/data/*.json

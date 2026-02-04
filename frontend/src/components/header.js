@@ -1,7 +1,8 @@
 export default function Header() {
   return (
     <div className="flex">
-      <h1 className="text-2xl font-bold text-green-300">Film Finder</h1>
+      <i className="fas fa-film fa-3x text-orange-400 m-5"></i>
+      <h1 className="text-4xl font-bold text-orange-400 my-5 mx-0">Film Finder</h1>
     </div>
   );
 }

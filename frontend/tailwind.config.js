@@ -5,7 +5,11 @@ export default {
     "./src/styles/**/*.css",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "midnight-blue": "#00004d",
+      }
+    },
   },
   plugins: [],
 };

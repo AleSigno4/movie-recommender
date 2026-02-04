@@ -13,6 +13,7 @@ def get_similar_movies(movie_id: int, k: int):
 
     input_file = "../data/cleaned/movies.csv"
     movies_df = pd.read_csv(input_file)
+    links_df = pd.read_csv("../data/cleaned/links.csv")
 
     # Retrieve genre columns
     non_genre_cols = ['movieId', 'title', 'genres']
@@ -32,6 +33,9 @@ def get_similar_movies(movie_id: int, k: int):
 
     # Retrieve movieId and title for top k similar movies
     top_movies = movies_df.iloc[top_indices][['movieId', 'title']]
+
+    # Merge with links_df to get tmdbId for the top movies
+    top_movies_with_links = top_movies.merge(links_df[['movieId', 'tmdbId']], on='movieId', how='left')
 
     # Convert to list of dicts
     return top_movies.to_dict(orient='records')

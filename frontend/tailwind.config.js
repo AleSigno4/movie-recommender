@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         "midnight-blue": "#00004d",
+        "midnight-light": "#1a1a5f",
       }
     },
   },

@@ -1,9 +1,10 @@
-class Movie():
-    def __init__(self, id: int, title: str, genres: list, url: str, year: int, rating: float):
-        self.id = id
-        self.title = title
-        self.genres = genres
-        self.poster_url = url
-        self.year = year
-        self.rating = rating
-    
+from pydantic import BaseModel
+from typing import List
+
+class Movie(BaseModel):
+    id: int
+    title: str
+    genres: List[str]
+    poster_url: str
+    year: int
+    rating: float

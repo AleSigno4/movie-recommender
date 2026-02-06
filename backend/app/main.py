@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from recommender import get_similar_movies
+from backend.app.recommender.similarity import get_similar_movies
 
 app = FastAPI()
 

@@ -8,3 +8,4 @@ class Movie(BaseModel):
     poster_url: str
     year: int
     rating: float
+    description: str

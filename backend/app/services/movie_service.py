@@ -12,6 +12,7 @@ def get_movies():
         movies_df = movies_df.merge(avg_ratings, on="movieId", how="left")
         movies_df.rename(columns={"rating": "avg_rating"}, inplace=True)
         movies_df["year"] = movies_df["title"].str.extract(r"\((\d{4})\)$").fillna(0).astype(int)
+        movies_df["title"] = movies_df["title"].str.replace(r"\s*\(\d{4}\)$", "", regex=True)
 
     # 3. Selezioniamo solo le colonne utili al frontend
     cols_to_keep = [

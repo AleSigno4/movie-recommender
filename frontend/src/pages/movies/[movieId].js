@@ -16,6 +16,13 @@ export default function MoviePage() {
   useEffect(() => {
     if (!movieId) return;
 
+    setMovie(null); 
+    setError(null);
+
+    if (scrollRef.current) {
+      scrollRef.current.scrollLeft = 0;
+    }
+
     getMovies()
       .then((movies) => {
         const found = movies.find((m) => String(m.movieId) === String(movieId));
@@ -42,7 +49,13 @@ export default function MoviePage() {
   };
 
   if (error) return <div className="text-red-500 text-center mt-10">{error}</div>;
-  if (!movie) return <div className="text-white text-center mt-10">Loading...</div>;
+  if (!movie && !error) {
+    return (
+      <div className="flex flex-col min-h-screen bg-midnight text-white items-center justify-center">
+        <div className="text-2xl font-bold animate-pulse">Loading...</div>
+      </div>
+    );
+  }
 
   return (
     <div className="flex flex-col min-h-screen bg-midnight text-white">

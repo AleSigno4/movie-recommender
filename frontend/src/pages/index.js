@@ -17,6 +17,7 @@ export default function Home() {
 
   // Movies and loading state
   const [movies, setMovies] = useState([]);
+  const [allFilteredMovies, setAllFilteredMovies] = useState([]);
   const [displayedMovies, setDisplayedMovies] = useState([]);
   const [page, setPage] = useState(1);
   const [error, setError] = useState(null);
@@ -66,7 +67,8 @@ export default function Home() {
     if (filters.year !== "All Years") {
       filtered = filtered.filter((m) => m.year === filters.year);
     }
-
+    
+    setAllFilteredMovies(filtered);
     setDisplayedMovies(filtered.slice(0, MOVIES_PER_PAGE));
     setPage(1);
   }, [filters, movies]);
@@ -97,13 +99,14 @@ export default function Home() {
 
   // Load more movies for infinite scroll
   const loadMore = () => {
-    const nextPage = page + 1;
     const start = page * MOVIES_PER_PAGE;
     const end = start + MOVIES_PER_PAGE;
-    const moreMovies = movies.slice(start, end);
+    
+    const moreMovies = allFilteredMovies.slice(start, end);
+    
     if (moreMovies.length > 0) {
-      setDisplayedMovies([...displayedMovies, ...moreMovies]);
-      setPage(nextPage);
+      setDisplayedMovies(prev => [...prev, ...moreMovies]);
+      setPage(prev => prev + 1);
     }
   };
 

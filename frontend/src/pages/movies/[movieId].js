@@ -52,7 +52,7 @@ export default function MoviePage() {
               </div>
             </div>
             <h2 className="text-2xl font-semibold mb-2">Trama</h2>
-            <p className="text-gray-300 leading-relaxed text-lg italic">
+            <p className="text-gray-300 leading-relaxed text-md italic">
               {movie.overview || "Descrizione non disponibile."}
             </p>
             

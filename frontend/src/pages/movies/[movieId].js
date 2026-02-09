@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { getMovies } from "../../services/api";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
@@ -11,6 +11,7 @@ export default function MoviePage() {
   const [recommendations, setRecommendations] = useState([]);
   const [movie, setMovie] = useState(null);
   const [error, setError] = useState(null);
+  const scrollRef = useRef(null);
 
   useEffect(() => {
     if (!movieId) return;
@@ -23,22 +24,30 @@ export default function MoviePage() {
       })
       .catch((err) => setError(err.message));
 
-    // 2. Carica i film raccomandati (assumendo che l'api sia /recommender/movies/{id}/recommendations)
     fetch(`http://localhost:8000/movies/${movieId}/recommendations`)
       .then((res) => res.json())
       .then((data) => setRecommendations(data))
       .catch((err) => console.error("Errore raccomandazioni:", err));
   }, [movieId]);
 
-  if (error)
-    return <div className="text-red-500 text-center mt-10">{error}</div>;
-  if (!movie)
-    return <div className="text-white text-center mt-10">Loading...</div>;
+  const scroll = (direction) => {
+    if (scrollRef.current) {
+      const { scrollLeft, clientWidth } = scrollRef.current;
+      const scrollTo = direction === "left" 
+        ? scrollLeft - clientWidth * 0.8 
+        : scrollLeft + clientWidth * 0.8;
+      
+      scrollRef.current.scrollTo({ left: scrollTo, behavior: "smooth" });
+    }
+  };
+
+  if (error) return <div className="text-red-500 text-center mt-10">{error}</div>;
+  if (!movie) return <div className="text-white text-center mt-10">Loading...</div>;
 
   return (
     <div className="flex flex-col min-h-screen bg-midnight text-white">
       <Header />
-      <main className="flex-1 p-8 pt-4 mx-12">
+      <main className="flex-1 px-8 pt-0 pb-0 mx-12">
         <button
           onClick={() => router.back()}
           className="mb-2 text-xl font-bold text-orange-400 flex items-center group"
@@ -70,25 +79,31 @@ export default function MoviePage() {
               <h3 className="text-xl font-semibold mb-2">Genres</h3>
               <div className="flex gap-2">
                 {movie.genres?.split("|").map((g) => (
-                  <span
-                    key={g}
-                    className="bg-gray-700 px-3 py-1 rounded-md text-sm"
-                  >
-                    {g}
-                  </span>
+                  <span key={g} className="bg-gray-700 px-3 py-1 rounded-md text-sm">{g}</span>
                 ))}
               </div>
             </div>
-            <div className="mt-4">
-              <h3 className="text-xl font-semibold mb-2">Recommended films</h3>
-              <div className="relative w-full">
-                <div className="flex w-0 min-w-full overflow-x-auto pb-4 scrollbar-hide snap-x">
+
+            {/* Sezione Raccomandazioni con Frecce */}
+            <div className="mt-8">
+              <h3 className="text-xl font-semibold">Recommended films</h3>
+              <div className="relative w-full group/container -mt-10">
+                <button
+                  onClick={() => scroll("left")}
+                  className="absolute left-0 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center bg-black/60 backdrop-blur-md rounded-full text-white opacity-0 group-hover/container:opacity-100 transition-all hover:bg-orange-500"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                  </svg>
+                </button>
+
+                <div 
+                  ref={scrollRef}
+                  className="flex w-0 min-w-full overflow-x-auto pb-2 scrollbar-hide snap-x scroll-smooth"
+                >
                   {recommendations.length > 0 ? (
                     recommendations.map((rec) => (
-                      <div
-                        key={rec.movieId}
-                        className="flex-shrink-0 -ml-12 first:ml-0 scale-75 hover:scale-80 transition-transform snap-center"
-                      >
+                      <div key={rec.movieId} className="flex-shrink-0 -ml-12 first:ml-0 scale-75 hover:scale-80 transition-transform snap-center">
                         <div className="w-[200px]">
                           <MovieCard
                             movieId={rec.movieId}
@@ -101,11 +116,18 @@ export default function MoviePage() {
                       </div>
                     ))
                   ) : (
-                    <p className="text-gray-500 italic">
-                      No recommendations found.
-                    </p>
+                    <p className="text-gray-500 italic">No recommendations found.</p>
                   )}
                 </div>
+
+                <button
+                  onClick={() => scroll("right")}
+                  className="absolute right-0 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center bg-black/60 backdrop-blur-md rounded-full text-white opacity-0 group-hover/container:opacity-100 transition-all hover:bg-orange-500"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                  </svg>
+                </button>
               </div>
             </div>
           </div>

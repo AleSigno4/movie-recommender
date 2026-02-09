@@ -6,3 +6,14 @@
 body {
   @apply bg-midnight-blue text-white;
 }
+
+/* Nasconde la barra di scorrimento per gli elementi con classe .scrollbar-hide */
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE e Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}

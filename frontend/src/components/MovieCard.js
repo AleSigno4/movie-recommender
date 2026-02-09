@@ -1,4 +1,4 @@
-export default function MovieCard({ title, year, poster_url, avg_rating, overview }) {
+export default function MovieCard({ title, year, poster_url, avg_rating, overview = "" }) {
   return (
     <div className="w-[200px] flex-shrink-0 mx-auto my-4 cursor-pointer transition-transform transform hover:scale-105">
       {/* Poster */}
@@ -19,7 +19,7 @@ export default function MovieCard({ title, year, poster_url, avg_rating, overvie
           Rating: {avg_rating}/10 <span className="text-orange-400">★</span>
         </div>
         <div className="text-xs text-gray-400">
-          {overview.length > 100
+          {overview && overview.length > 100
             ? overview.slice(0, 100) + "..."
             : overview}
         </div>

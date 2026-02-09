@@ -23,17 +23,17 @@ export default function Home() {
   const [error, setError] = useState(null);
 
   // Extract genres and years for dropdowns
-  const genres = [
-    "All Genres",
+  const sortedUniqueGenres = [
     ...new Set(
       movies.flatMap((m) => {
         if (!m.genres) return [];
-        return m.genres.split("|");
+        const genreData = Array.isArray(m.genres) ? m.genres : m.genres.split("|");
+        return genreData;
       })
     ),
-  ]
-  .filter((g) => g !== "(no genres listed)" && g.trim() !== "")
+  ].filter((g) => g !== "(no genres listed)" && g.trim() !== "")
   .sort();
+  const genres = ["All Genres", ...sortedUniqueGenres];
 
   const years = ["All Years", ...new Set(movies.map((m) => m.year))].sort(
     (a, b) => b - a,

@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 from app.services.movie_service import get_movies
 
+# Define the API router for movies
 router = APIRouter(
     prefix="/movies",
     tags=["movies"]

@@ -66,7 +66,7 @@ export default function MoviePage() {
           className="mb-2 text-xl font-bold text-orange-400 flex items-center group"
         >
           <span className="mr-2 no-underline">←</span>
-          <span className="group-hover:underline">Back to Home</span>
+          <span className="group-hover:underline">Back</span>
         </button>
 
         <div className="flex flex-col md:flex-row gap-10 mt-4">

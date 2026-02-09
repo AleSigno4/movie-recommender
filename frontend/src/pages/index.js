@@ -125,6 +125,7 @@ export default function Home() {
         {displayedMovies.map((movie) => (
           <MovieCard
             key={movie.movieId}
+            movieId={movie.movieId}
             title={movie.title}
             year={movie.year}
             poster_url={movie.poster_url}

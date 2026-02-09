@@ -23,7 +23,7 @@ export default function MovieCard({
         {/* Info */}
         <div className="bg-white/20 mt-0 p-2 text-center rounded-md rounded-t-none min-h-[80px] flex flex-col justify-between transition-all duration-300 group-hover:bg-white/30">
           <div>
-            <div className="text-white leading-tight font-semibold text-md line-clamp-2 h-[2rem] flex items-center justify-center">
+            <div className="text-white leading-tight font-semibold text-md line-clamp-2.5 h-[2rem] flex items-center justify-center">
               <span>
                 {title} <span className="text-gray-400 font-normal text-sm ml-1">({year})</span>
               </span>

@@ -34,7 +34,7 @@ export default function MoviePage() {
           className="mb-2 text-xl font-bold text-orange-400 flex items-center group"
         >
           <span className="mr-2 no-underline">←</span> 
-          <span className="group-hover:underline">Torna alla lista</span>
+          <span className="group-hover:underline">Back to Home</span>
         </button>
 
         <div className="flex flex-col md:flex-row gap-10 mt-4">
@@ -51,13 +51,13 @@ export default function MoviePage() {
                 ⭐ {movie.avg_rating}
               </div>
             </div>
-            <h2 className="text-2xl font-semibold mb-2">Trama</h2>
+            <h2 className="text-2xl font-semibold mb-2">Overview</h2>
             <p className="text-gray-300 leading-relaxed text-md italic">
               {movie.overview || "Descrizione non disponibile."}
             </p>
             
             <div className="mt-8">
-               <h3 className="text-xl font-semibold mb-2">Generi</h3>
+               <h3 className="text-xl font-semibold mb-2">Genres</h3>
                <div className="flex gap-2">
                  {movie.genres?.split('|').map(g => (
                    <span key={g} className="bg-gray-700 px-3 py-1 rounded-md text-sm">{g}</span>

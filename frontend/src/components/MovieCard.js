@@ -1,6 +1,6 @@
 export default function MovieCard({ title, year, poster_url, avg_rating, overview }) {
   return (
-    <div className="w-[200px] flex-shrink-0 mx-auto my-4">
+    <div className="w-[200px] flex-shrink-0 mx-auto my-4 cursor-pointer transition-transform transform hover:scale-105">
       {/* Poster */}
       <div className="bg-white/10 backdrop-blur-md p-2 w-full rounded-md rounded-b-none">
         <img

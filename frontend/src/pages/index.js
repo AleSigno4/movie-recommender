@@ -78,6 +78,8 @@ export default function Home() {
       filtered.sort((a, b) => b.year - a.year);
     } else if (filters.sortBy === "year_asc") {
       filtered.sort((a, b) => a.year - b.year);
+    } else if (filters.sortBy === "title_asc") {
+      filtered.sort((a, b) => a.title.localeCompare(b.title));
     }
     
     setAllFilteredMovies(filtered);

@@ -623,7 +623,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 786,Eraser (1996),"['Action', 'Drama', 'Thriller']",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 788,"Nutty Professor, The (1996)","['Comedy', 'Fantasy', 'Romance', 'Sci-Fi']",1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 790,"Unforgettable Summer, An (Un été inoubliable) (1994)",['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-791,"Last Klezmer: Leopold Kozlowski, His Life and Music, The (1994)",['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 795,Somebody to Love (1994),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 798,Daylight (1996),"['Action', 'Adventure', 'Drama', 'Thriller']",0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0
 799,"Frighteners, The (1996)","['Comedy', 'Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0
@@ -842,7 +841,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 1103,Rebel Without a Cause (1955),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 1104,"Streetcar Named Desire, A (1951)",['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 1105,Children of the Corn IV: The Gathering (1996),['Horror'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-1107,Loser (1991),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 1111,Microcosmos (Microcosmos: Le peuple de l'herbe) (1996),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 1112,Palookaville (1996),"['Action', 'Comedy', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 1114,"Funeral, The (1996)","['Crime', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
@@ -2140,7 +2138,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 2846,"Adventures of Milo and Otis, The (Koneko monogatari) (1986)","['Adventure', 'Children', 'Comedy', 'Drama']",0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0
 2847,Only Angels Have Wings (1939),"['Adventure', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 2848,"Othello (Tragedy of Othello: The Moor of Venice, The) (1952)",['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-2851,Saturn 3 (1980),"['Adventure', 'Sci-Fi', 'Thriller']",0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
 2852,"Soldier's Story, A (1984)",['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 2856,I Saw What You Did (1965),['Thriller'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 2857,Yellow Submarine (1968),"['Adventure', 'Animation', 'Comedy', 'Fantasy', 'Musical']",1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1
@@ -3026,7 +3023,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 4043,At Close Range (1986),"['Crime', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 4046,Friendly Persuasion (1956),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 4047,Gettysburg (1993),"['Drama', 'War']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-4051,Horrors of Spider Island (Ein Toter Hing im Netz) (1960),"['Horror', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 4052,Antitrust (2001),"['Crime', 'Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
 4053,Double Take (2001),"['Action', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 4054,Save the Last Dance (2001),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -3126,7 +3122,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 4203,Harley Davidson and the Marlboro Man (1991),"['Action', 'Crime', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 4204,Losin' It (1983),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 4205,Mermaids (1990),"['Comedy', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
-4207,Navy Seals (1990),"['Action', 'Adventure', 'War']",0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 4210,Manhunter (1986),"['Action', 'Crime', 'Drama', 'Horror', 'Thriller']",0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0
 4211,Reversal of Fortune (1990),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 4212,Death on the Nile (1978),"['Crime', 'Mystery']",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
@@ -3361,7 +3356,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 4563,Young Einstein (1988),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 4564,Always (1989),"['Drama', 'Fantasy', 'Romance']",1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 4565,American Ninja (1985),"['Action', 'Adventure']",0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-4568,Best of the Best (1989),['Action'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 4571,Bill & Ted's Excellent Adventure (1989),"['Adventure', 'Comedy', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
 4572,Black Rain (1989),"['Action', 'Crime', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 4573,Blaze (1989),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
@@ -3679,7 +3673,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 5065,"Mothman Prophecies, The (2002)","['Drama', 'Fantasy', 'Horror', 'Mystery', 'Thriller']",1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
 5066,"Walk to Remember, A (2002)","['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 5068,Beijing Bicycle (Shiqi sui de dan che) (2001),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-5069,Escaflowne: The Movie (Escaflowne) (2000),"['Action', 'Adventure', 'Animation', 'Drama', 'Fantasy']",1,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
 5071,Maelström (2000),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 5072,Metropolis (2001),"['Animation', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 5073,"Son's Room, The (Stanza del figlio, La) (2001)",['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -3740,7 +3733,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 5198,"Long Good Friday, The (1980)","['Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 5202,Mon oncle d'Amérique (1980),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 5205,Motel Hell (1980),"['Comedy', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
-5209,Ffolkes (1979),"['Action', 'Adventure', 'Thriller']",0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
 5212,"Octagon, The (1980)",['Action'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 5213,"Oh, God! Book II (1980)",['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 5214,"Oh, God! (1977)","['Comedy', 'Fantasy']",1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -4980,12 +4972,10 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 7620,Monster in a Box (1992),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 7624,School Ties (1992),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 7636,Raising Cain (1992),"['Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-7646,Rose Red (2002),"['Horror', 'Mystery', 'Thriller']",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 7647,Noises Off... (1992),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 7649,Babylon 5: In the Beginning (1998),"['Adventure', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 7650,"Witchfinder General (Conquerer Worm, The) (1968)",['Horror'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 7657,Versus (2000),"['Action', 'Comedy', 'Fantasy', 'Horror']",1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
-7669,Pride and Prejudice (1995),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 7698,"China Syndrome, The (1979)","['Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 7700,"Wages of Fear, The (Salaire de la peur, Le) (1953)","['Action', 'Adventure', 'Drama', 'Thriller']",0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0
 7701,Look Who's Talking Too (1990),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -5010,7 +5000,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 7753,Tuesdays with Morrie (1999),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 7756,Alexander Nevsky (Aleksandr Nevskiy) (1938),"['Action', 'Drama', 'War']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 7757,Jason and the Argonauts (1963),"['Action', 'Adventure', 'Fantasy']",1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-7762,"Tinker, Tailor, Soldier, Spy (1979)","['Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 7766,Throne of Blood (Kumonosu jô) (1957),"['Action', 'Drama', 'Thriller', 'War']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 7767,"Best of Youth, The (La meglio gioventù) (2003)",['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 7772,Undercurrent (1946),"['Film-Noir', 'Thriller']",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
@@ -5035,8 +5024,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 7835,Song of the Thin Man (1947),"['Comedy', 'Crime', 'Drama', 'Musical', 'Mystery', 'Romance']",0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,1
 7839,Love Crazy (1941),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 7840,Gunga Din (1939),"['Adventure', 'Comedy', 'War']",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
-7841,Children of Dune (2003),"['Fantasy', 'Sci-Fi']",1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-7842,Dune (2000),"['Drama', 'Fantasy', 'Sci-Fi']",1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 7843,Lammbock (2001),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 7844,"Legend, The (Legend of Fong Sai-Yuk, The) (Fong Sai Yuk) (1993)","['Action', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 7845,Tremors II: Aftershocks (1996),"['Comedy', 'Horror', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
@@ -5508,7 +5495,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 26422,Hair (1979),"['Comedy', 'Drama', 'Musical']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1
 26429,Love at First Bite (1979),"['Comedy', 'Horror', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0
 26444,"Hitch Hikers Guide to the Galaxy, The (1981)","['Adventure', 'Comedy', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
-26453,Smiley's People (1982),"['Drama', 'Mystery']",0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 26464,Blue Thunder (1983),"['Action', 'Crime', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 26467,"Day After, The (1983)","['Drama', 'Sci-Fi']",0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 26471,Eddie Murphy Delirious (1983),"['Comedy', 'Documentary']",0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
@@ -5538,19 +5524,16 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 26603,Prince of Darkness (1987),"['Fantasy', 'Horror', 'Sci-Fi', 'Thriller']",1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 26606,"Chinese Ghost Story, A (Sinnui yauwan) (1987)","['Action', 'Fantasy', 'Horror', 'Romance']",1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 26612,"Better Tomorrow II, A (Ying hung boon sik II) (1987)","['Crime', 'Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
-26614,"Bourne Identity, The (1988)","['Action', 'Adventure', 'Drama', 'Mystery', 'Thriller']",0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0
 26622,Dominick and Eugene (1988),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 26629,Killer Klowns from Outer Space (1988),"['Comedy', 'Horror', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
 26630,Moonwalker (1988),['Musical'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 26631,Alice (Neco z Alenky) (1988),"['Animation', 'Fantasy', 'Mystery']",1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 26645,Life Is a Long Quiet River (La vie est un long fleuve tranquille) (1988),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-26649,Lonesome Dove (1989),"['Adventure', 'Drama', 'Western']",0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0
 26662,Kiki's Delivery Service (Majo no takkyûbin) (1989),"['Adventure', 'Animation', 'Children', 'Drama', 'Fantasy']",1,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0
 26676,Almost an Angel (1990),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 26680,Cry-Baby (1990),"['Comedy', 'Musical', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1
 26681,Bullet in the Head (1990),"['Action', 'Drama', 'War']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 26686,Ghost Dad (1990),"['Comedy', 'Fantasy']",1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-26693,It (1990),"['Drama', 'Fantasy', 'Horror', 'Mystery', 'Thriller']",1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
 26694,Ju Dou (1990),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 26695,"Krays, The (1990)",['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 26696,Lionheart (1990),['Action'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -5568,7 +5551,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 26743,Only Yesterday (Omohide poro poro) (1991),"['Animation', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0
 26745,Other People's Money (1991),"['Comedy', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 26750,Quigley Down Under (1990),"['Adventure', 'Drama', 'Western']",0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0
-26761,Prime Suspect 2 (1992),"['Crime', 'Drama', 'Mystery', 'Romance', 'Thriller']",0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0
 26764,Captain America (1990),"['Action', 'Fantasy', 'Sci-Fi', 'Thriller', 'War']",1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 26765,City Hunter (Sing si lip yan) (1993),"['Action', 'Comedy', 'Romance']",0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 26776,Porco Rosso (Crimson Pig) (Kurenai no buta) (1992),"['Adventure', 'Animation', 'Comedy', 'Fantasy', 'Romance']",1,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0
@@ -5592,7 +5574,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 26870,Major League II (1994),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 26871,My Father the Hero (1994),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 26875,"Pure Formality, A (Pura formalità, Una) (1994)","['Crime', 'Film-Noir', 'Mystery', 'Thriller']",0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0
-26887,"Langoliers, The (1995)","['Drama', 'Fantasy', 'Horror', 'Mystery', 'Sci-Fi', 'Thriller']",1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
 26900,"Last Wedding, The (Kivenpyörittäjän kylä) (1995)","['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 26901,Last of the Dogmen (1995),"['Adventure', 'Western']",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
 26903,Whisper of the Heart (Mimi wo sumaseba) (1995),"['Animation', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0
@@ -5605,14 +5586,12 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 26974,Gummo (1997),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 26985,Nirvana (1997),"['Action', 'Sci-Fi']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 26999,"Lion King II: Simba's Pride, The (1998)","['Adventure', 'Animation', 'Children', 'Musical', 'Romance']",0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,1
-27002,From the Earth to the Moon (1998),"['Action', 'Documentary', 'Drama', 'Thriller']",0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0
 27003,Beowulf (1999),"['Action', 'Horror', 'Sci-Fi']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 27006,RKO 281 (1999),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 27008,From Dusk Till Dawn 2: Texas Blood Money (1999) ,"['Comedy', 'Crime', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0
 27020,Gia (1998),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 27022,Thursday (1998),"['Action', 'Crime', 'Thriller']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
 27032,Who Am I? (Wo shi shei) (1998),"['Action', 'Adventure', 'Comedy', 'Sci-Fi', 'Thriller']",0,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0
-27036,Merlin (1998),"['Action', 'Adventure', 'Drama', 'Fantasy', 'Romance']",1,0,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 27074,Brave New World (1998),['Sci-Fi'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 27075,Addams Family Reunion (1998),"['Children', 'Comedy', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
 27105,Purgatory (1999),"['Fantasy', 'Western']",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
@@ -5626,7 +5605,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 27186,Kirikou and the Sorceress (Kirikou et la sorcière) (1998),"['Adventure', 'Animation', 'Children', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
 27193,Taxi 2 (2000),"['Action', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 27246,If These Walls Could Talk 2 (2000),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-27251,"10th Kingdom, The (2000)","['Adventure', 'Comedy', 'Fantasy']",1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
 27255,"Wind Will Carry Us, The (Bad ma ra khahad bord) (1999)",['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 27266,2046 (2004),"['Drama', 'Fantasy', 'Romance', 'Sci-Fi']",1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 27306,Bartleby (2001),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
@@ -5663,7 +5641,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 27592,Sympathy for Mr. Vengeance (Boksuneun naui geot) (2002),"['Crime', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 27595,Jesus Christ Vampire Hunter (2001),"['Action', 'Comedy', 'Horror', 'Musical']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1
 27604,Suicide Club (Jisatsu saakuru) (2001),"['Horror', 'Mystery', 'Thriller']",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-27611,Battlestar Galactica (2003),"['Drama', 'Sci-Fi', 'War']",0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 27618,"Sound of Thunder, A (2005)","['Action', 'Adventure', 'Drama', 'Sci-Fi', 'Thriller']",0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0
 27619,"Lion King 1½, The (2004)","['Adventure', 'Animation', 'Children', 'Comedy']",0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0
 27627,Oasis (2002),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -5680,7 +5657,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 27704,Battle Royale 2: Requiem (Batoru rowaiaru II: Chinkonka) (2003),"['Action', 'Drama', 'Thriller', 'War']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 27705,In Hell (2003),"['Action', 'Drama', 'Thriller']",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 27706,Lemony Snicket's A Series of Unfortunate Events (2004),"['Adventure', 'Children', 'Comedy', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0
-27708,Helen of Troy (2003),"['Action', 'Adventure', 'Drama', 'Romance']",0,0,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 27716,"Green Butchers, The (Grønne slagtere, De) (2003)","['Comedy', 'Crime', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0
 27721,"Very Long Engagement, A (Un long dimanche de fiançailles) (2004)","['Drama', 'Mystery', 'Romance', 'War']",0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 27722,Last Life in the Universe (Ruang rak noi nid mahasan) (2003),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -5689,7 +5665,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 27741,"Twilight Samurai, The (Tasogare Seibei) (2002)","['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 27744,"Facing Windows (Finestra di fronte, La) (2003)","['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 27746,Ginger Snaps: Unleashed (2004),"['Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-27751,'Salem's Lot (2004),"['Drama', 'Horror', 'Mystery', 'Thriller']",0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
 27762,Comic Book: The Movie (2004),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 27768,Intimate Strangers (Confidences trop intimes) (2004),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 27769,Down to the Bone (2004),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -5765,7 +5740,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 31150,Wizards (1977),"['Animation', 'Fantasy', 'Sci-Fi', 'War']",1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 31162,"Life and Death of Peter Sellers, The (2004)","['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 31184,Appleseed (Appurushîdo) (2004),"['Action', 'Animation', 'Fantasy', 'Sci-Fi']",1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-31193,"Many Adventures of Winnie the Pooh, The (1977)","['Animation', 'Children', 'Musical']",0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1
 31221,Elektra (2005),"['Action', 'Adventure', 'Crime', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0
 31223,Racing Stripes (2005),"['Children', 'Comedy']",0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
 31225,Coach Carter (2005),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -5853,7 +5827,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 32589,Beauty Shop (2005),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 32596,Sahara (2005),"['Action', 'Adventure', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
 32598,Fever Pitch (2005),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-32600,Eros (2004),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 32620,Not on the Lips (Pas sur la bouche) (2003),"['Comedy', 'Musical', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1
 32632,Electra Glide in Blue (1973),"['Action', 'Crime']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 32649,"Special Day, A (Giornata particolare, Una) (1977)","['Drama', 'War']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -6019,7 +5992,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 38095,"Bittersweet Life, A (Dalkomhan insaeng) (2005)","['Action', 'Crime', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 38159,"Short Film About Love, A (Krótki film o milosci) (1988)","['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 38164,"All This, and Heaven Too (1940)","['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-38198,Darwin's Nightmare (2004),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 38294,Beowulf & Grendel (2005),"['Action', 'Adventure', 'Drama', 'Fantasy']",1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 38304,No Direction Home: Bob Dylan (2005),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 38388,Goal! The Dream Begins (Goal!) (2005),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -6369,7 +6341,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 49822,"Good Shepherd, The (2006)","['Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 49824,Dreamgirls (2006),"['Drama', 'Musical']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1
 49910,Freedom Writers (2007),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-49917,When the Levees Broke: A Requiem in Four Acts (2006),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 49932,Inland Empire (2006),"['Drama', 'Mystery', 'Thriller']",0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 49957,"History Boys, The (2006)","['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 49961,Notes on a Scandal (2006),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -6410,7 +6381,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 50942,"Wake Up, Ron Burgundy (2004)",['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 50954,It's a Boy Girl Thing (2006),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 50999,"Ugly Duckling and Me!, The (2006)","['Animation', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
-51024,The Odyssey (1997),"['Adventure', 'Drama', 'Fantasy']",1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 51037,Unknown (2006),"['Drama', 'Mystery', 'Thriller']",0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 51077,Ghost Rider (2007),"['Action', 'Fantasy', 'Thriller']",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 51080,Breach (2007),"['Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
@@ -6452,7 +6422,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 52241,"Lookout, The (2007)","['Crime', 'Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
 52245,Blades of Glory (2007),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 52279,Are We Done Yet? (2007),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-52281,Grindhouse (2007),"['Action', 'Crime', 'Horror', 'Sci-Fi', 'Thriller']",0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0
 52283,"Reaping, The (2007)","['Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 52287,Meet the Robinsons (2007),"['Action', 'Adventure', 'Animation', 'Children', 'Comedy', 'Sci-Fi']",0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0
 52299,American Hardcore (2006),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
@@ -6512,7 +6481,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 53574,"TV Set, The (2006)","['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 53578,"Valet, The (La doublure) (2006)",['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 53808,Bring It On: All or Nothing (2006),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-53883,"Power of Nightmares, The: The Rise of the Politics of Fear (2004)",['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 53894,Sicko (2007),"['Documentary', 'Drama']",0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
 53921,"Mighty Heart, A (2007)","['Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 53953,1408 (2007),"['Drama', 'Horror', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
@@ -6575,7 +6543,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 55167,Tekkonkinkreet (Tekkon kinkurîto) (2006),"['Action', 'Adventure', 'Animation', 'Crime', 'Fantasy']",1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0
 55190,Love and Other Disasters (2006),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 55205,Interview (2007),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-55207,Cashback (2004),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 55232,Resident Evil: Extinction (2007),"['Action', 'Horror', 'Sci-Fi', 'Thriller']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 55241,Mr. Woodcock (2007),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 55245,Good Luck Chuck (2007),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -6676,7 +6643,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 57637,"Signal, The (2007)","['Horror', 'Sci-Fi', 'Thriller']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 57640,Hellboy II: The Golden Army (2008),"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 57669,In Bruges (2008),"['Comedy', 'Crime', 'Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,1,0
-57772,World on a Wire (Welt am Draht) (1973),"['Crime', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 57843,Rise of the Footsoldier (2007),"['Action', 'Crime', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 57910,Teeth (2007),"['Comedy', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
 57951,Fool's Gold (2008),"['Action', 'Adventure', 'Comedy', 'Romance']",0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0
@@ -6841,7 +6807,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 61352,Traitor (2008),"['Crime', 'Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
 61394,"Onion Movie, The (2008)",['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 61401,"Spirit, The (2008)","['Action', 'Comedy', 'Fantasy', 'Thriller']",1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
-61406,John Adams (2008),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 61465,Bangkok Dangerous (2008),"['Action', 'Crime', 'Thriller']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
 61628,Sunflower (Xiang ri kui) (2005),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 61692,Altered (2006),"['Horror', 'Sci-Fi', 'Thriller']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
@@ -6858,7 +6823,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 62250,Gomorrah (Gomorra) (2008),"['Crime', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 62293,"Duchess, The (2008)","['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 62299,Alone in the Dark II (2008),"['Action', 'Horror']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-62336,FLCL (2000),"['Animation', 'Comedy', 'Fantasy', 'Sci-Fi']",1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
 62344,Rachel Getting Married (2008),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 62374,Body of Lies (2008),"['Action', 'Drama', 'Thriller']",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 62376,City of Ember (2008),"['Adventure', 'Children', 'Sci-Fi']",0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
@@ -6879,7 +6843,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 62836,Babylon 5: The Lost Tales - Voices in the Dark (2007),['Sci-Fi'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 62849,RocknRolla (2008),"['Action', 'Crime']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 62956,Futurama: Bender's Game (2008),"['Action', 'Adventure', 'Animation', 'Comedy', 'Fantasy', 'Sci-Fi']",1,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0
-62970,Tin Man (2007),"['Adventure', 'Fantasy', 'Sci-Fi']",1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 62999,Madagascar: Escape 2 Africa (2008),"['Action', 'Adventure', 'Animation', 'Children', 'Comedy', 'IMAX']",0,0,1,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0
 63033,Blindness (2008),"['Drama', 'Mystery', 'Romance', 'Thriller']",0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 63062,Changeling (2008),"['Crime', 'Drama', 'Mystery']",0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
@@ -6893,7 +6856,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 63276,Crows Zero (Kurôzu zero) (2007),['Action'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 63312,Krabat (2008),"['Drama', 'Fantasy']",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 63393,Camp Rock (2008),"['Comedy', 'Musical', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1
-63433,Farscape: The Peacekeeper Wars (2004),"['Action', 'Adventure', 'Sci-Fi']",0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 63436,Saw V (2008),"['Crime', 'Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0
 63479,Sex Drive (2008),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 63515,The Island (2006),"['Drama', 'Mystery']",0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -6911,7 +6873,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 64034,"Boy in the Striped Pajamas, The (Boy in the Striped Pyjamas, The) (2008)","['Drama', 'War']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 64114,Fireproof (2008),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 64116,Igor (2008),"['Animation', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
-64167,Dinotopia (2002),"['Adventure', 'Fantasy']",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 64197,Hunger (2008),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 64231,Punisher: War Zone (2008),"['Action', 'Crime', 'Drama', 'Thriller']",0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
 64249,Shrek the Halls (2007),"['Adventure', 'Animation', 'Comedy', 'Fantasy']",1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0
@@ -6937,7 +6898,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 65126,Choke (2008),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 65130,Revolutionary Road (2008),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 65133,Blackadder Back & Forth (1999),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-65135,Blackadder's Christmas Carol (1988),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 65188,Dear Zachary: A Letter to a Son About His Father (2008),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 65193,Wild Child (2008),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 65216,Defiance (2008),"['Drama', 'Thriller', 'War']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
@@ -6945,7 +6905,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 65230,Marley & Me (2008),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 65261,Ponyo (Gake no ue no Ponyo) (2008),"['Adventure', 'Animation', 'Children', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
 65350,"General Died at Dawn, The (1936)","['Adventure', 'Crime', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0
-65359,Earthsea (Legend of Earthsea) (2004),"['Adventure', 'Drama', 'Fantasy']",1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 65514,Ip Man (2008),"['Action', 'Drama', 'War']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 65577,"Tale of Despereaux, The (2008)","['Adventure', 'Animation', 'Children', 'Comedy', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0
 65585,Bride Wars (2009),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -6977,14 +6936,12 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 66427,My Name Is Bruce (2007),"['Comedy', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
 66509,Funny People (2009),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 66511,Berlin Calling (2008),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
-66544,Nuremberg (2000),"['Drama', 'War']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 66665,Away We Go (2009),"['Comedy', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 66744,"Divo, Il (2008)",['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 66783,Friday the 13th (2009),['Horror'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 66785,"Good, the Bad, the Weird, The (Joheunnom nabbeunnom isanghannom) (2008)","['Action', 'Adventure', 'Comedy', 'Western']",0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0
 66798,"Pink Panther 2, The (2009)","['Adventure', 'Comedy', 'Mystery']",0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
 66915,Rock-A-Doodle (1991),"['Adventure', 'Animation', 'Children', 'Musical']",0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1
-66934,Dr. Horrible's Sing-Along Blog (2008),"['Comedy', 'Drama', 'Musical', 'Sci-Fi']",0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1
 66943,"Cottage, The (2008)","['Comedy', 'Crime', 'Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0
 67087,"I Love You, Man (2009)",['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 67168,Dance of the Dead (2008),"['Adventure', 'Comedy', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0
@@ -7062,7 +7019,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 69481,"Hurt Locker, The (2008)","['Action', 'Drama', 'Thriller', 'War']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 69495,Breakfast with Scot (2007),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 69516,"Limits of Control, The (2009)","['Crime', 'Drama', 'Film-Noir']",0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0
-69524,Raiders of the Lost Ark: The Adaptation (1989),"['Action', 'Adventure', 'Thriller']",0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
 69526,Transformers: Revenge of the Fallen (2009),"['Action', 'Adventure', 'Sci-Fi', 'IMAX']",0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
 69529,Home (2009),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 69604,Whatever Works (2009),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -7078,7 +7034,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 69784,Brüno (Bruno) (2009),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 69805,"Librarian, The: The Curse of the Judas Chalice (2008)","['Action', 'Adventure', 'Fantasy']",1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 69844,Harry Potter and the Half-Blood Prince (2009),"['Adventure', 'Fantasy', 'Mystery', 'Romance', 'IMAX']",1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0
-69849,Roots (1977),"['Drama', 'War']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 69860,Eichmann (2007),"['Drama', 'War']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 69904,Open Water 2: Adrift (2006),"['Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 69951,"Imaginarium of Doctor Parnassus, The (2009)","['Drama', 'Fantasy']",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -7098,7 +7053,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 70361,12 Rounds (2009),"['Action', 'Thriller']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 70451,Max Manus (2008),"['Action', 'Drama', 'War']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 70492,Winds of the Wasteland (1936),['Western'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-70521,Lost in Austen (2008),"['Drama', 'Fantasy', 'Romance', 'Sci-Fi']",1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 70533,Evangelion: 1.0 You Are (Not) Alone (Evangerion shin gekijôban: Jo) (2007),"['Action', 'Animation', 'Sci-Fi']",0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 70545,"Deal, The (2008)",['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 70565,"Goods: Live Hard, Sell Hard, The (2009)",['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -7126,7 +7080,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 71135,Pandorum (2009),"['Horror', 'Sci-Fi', 'Thriller']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 71147,Death of a Cyclist (Muerte de un ciclista) (1955),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 71156,"Men Who Stare at Goats, The (2009)","['Action', 'Comedy', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
-71160,"Hunt For Gollum, The (2009)","['Action', 'Adventure', 'Fantasy']",1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 71205,Jennifer's Body (2009),"['Comedy', 'Horror', 'Sci-Fi', 'Thriller']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0
 71211,"Informant!, The (2009)","['Comedy', 'Crime', 'Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,1,0
 71248,Extract (2009),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -7210,7 +7163,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 72874,"Peacekeeper, The (1997)",['Action'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 72919,Did You Hear About the Morgans? (2009),"['Comedy', 'Crime', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0
 72921,Snow White (1916),"['Fantasy', 'Romance']",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-72982,Alice (2009),"['Action', 'Adventure', 'Fantasy']",1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 72998,Avatar (2009),"['Action', 'Adventure', 'Sci-Fi', 'IMAX']",0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
 73015,It's Complicated (2009),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 73017,Sherlock Holmes (2009),"['Action', 'Crime', 'Mystery', 'Thriller']",0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
@@ -7312,7 +7264,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 76743,Mortadelo & Filemon: The Big Adventure (La gran aventura de Mortadelo y Filemón) (2003),"['Action', 'Adventure', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
 76751,American Drug War: The Last White Hope (2007),"['Crime', 'Documentary']",0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
 76763,"Runaways, The (2010)","['Drama', 'Musical']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1
-77177,Wild China (2008),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 77191,Death at a Funeral (2010),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 77201,Valhalla Rising (2009),"['Action', 'Drama', 'War']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 77206,Diary of a Wimpy Kid (2010),"['Children', 'Comedy']",0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -7381,7 +7332,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 79259,Cherrybomb (2009),"['Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 79274,Batman: Under the Red Hood (2010),"['Action', 'Animation']",0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 79293,Salt (2010),"['Action', 'Thriller']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-79299,"No. 1 Ladies' Detective Agency, The (2008)","['Comedy', 'Crime', 'Mystery']",0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
 79333,Watch Out for the Automobile (Beregis avtomobilya) (1966),"['Comedy', 'Crime', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0
 79357,Mr. Nobody (2009),"['Drama', 'Fantasy', 'Romance', 'Sci-Fi']",1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 79428,Dinner for Schmucks (2010),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -7535,7 +7485,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 84772,Paul (2011),"['Adventure', 'Comedy', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
 84799,"Asphyx, The (1973)","['Horror', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 84844,Brother 2 (Brat 2) (2000),"['Crime', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
-84847,Emma (2009),"['Comedy', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 84942,Drive Angry (2011),"['Action', 'Fantasy', 'Thriller']",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 84944,Rango (2011),"['Action', 'Adventure', 'Animation', 'Children', 'Comedy', 'Western']",0,0,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,1,0,0
 84950,Take Me Home Tonight (2011),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
@@ -7567,7 +7516,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 85565,Chalet Girl (2011),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 85736,BURN-E (2008),"['Adventure', 'Animation', 'Children', 'Sci-Fi']",0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
 85774,Senna (2010),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-85780,Family Guy Presents: It's a Trap (2010),"['Animation', 'Comedy', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
 85788,Insidious (2010),"['Fantasy', 'Horror', 'Thriller']",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 85796,Hobo with a Shotgun (2011),"['Action', 'Adventure', 'Crime', 'Thriller']",0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0
 85881,Win Win (2011),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
@@ -7580,7 +7528,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 86068,Films to Keep You Awake: The Christmas Tale (Películas para no dormir: Cuento de navidad) (2005),"['Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 86142,13 Assassins (Jûsan-nin no shikaku) (2010),['Action'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 86190,Hanna (2011),"['Action', 'Adventure', 'Mystery', 'Thriller']",0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
-86237,Connections (1978),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 86279,Into Eternity (2010),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 86286,Daffy Duck's Quackbusters (1988),"['Animation', 'Children', 'Comedy', 'Horror']",0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0
 86290,American: The Bill Hicks Story (2009),"['Comedy', 'Documentary']",0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
@@ -7593,7 +7540,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 86347,Louis C.K.: Chewed Up (2008),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 86355,Atlas Shrugged: Part 1 (2011),"['Drama', 'Mystery', 'Sci-Fi']",0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 86377,Louis C.K.: Shameless (2007),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-86487,Mildred Pierce (2011),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 86504,Voices from the List (2004),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 86548,Water for Elephants (2011),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 86593,African Cats (2011),"['Adventure', 'Documentary']",0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
@@ -7732,19 +7678,16 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 90600,Headhunters (Hodejegerne) (2011),"['Action', 'Crime', 'Thriller']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
 90603,Batman: Year One (2011),"['Action', 'Animation', 'Crime']",0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
 90630,Miss Representation (2011),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-90647,Puss in Boots (2011),"['Adventure', 'Animation', 'Comedy', 'Fantasy', 'IMAX']",1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0
 90717,Tower Heist (2011),"['Action', 'Comedy', 'Crime']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
 90719,J. Edgar (2011),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 90738,"Double, The (2011)","['Action', 'Crime', 'Drama', 'Mystery', 'Thriller']",0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
 90746,"Adventures of Tintin, The (2011)","['Action', 'Animation', 'Mystery', 'IMAX']",0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
 90769,Starsuckers (2009),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 90809,Tomboy (2011),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-90863,George Harrison: Living in the Material World (2011),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 90866,Hugo (2011),"['Children', 'Drama', 'Mystery']",0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
 90888,Immortals (2011),"['Action', 'Drama', 'Fantasy']",1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 90890,Jack and Jill (2011),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 90943,Into the Abyss (2011),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-90945,"Sign of Four, The (1987)","['Adventure', 'Crime', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0
 91077,"Descendants, The (2011)","['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 91079,Like Crazy (2011),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 91094,"Muppets, The (2011)","['Children', 'Comedy', 'Musical']",0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1
@@ -7810,7 +7753,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 92422,"Woman in Black, The (2012)","['Drama', 'Horror', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
 92427,Woman in Love (Rubbeldiekatz) (2011),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 92439,"Art of Getting By, The (2011)","['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-92475,All Watched Over by Machines of Loving Grace (2011),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 92494,Dylan Moran: Monster (2004),"['Comedy', 'Documentary']",0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
 92507,Safe House (2012),"['Action', 'Crime', 'Mystery', 'Thriller']",0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
 92509,"Vow, The (2012)","['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -7825,10 +7767,7 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 92760,"Atomic Brain, The (1963)","['Horror', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 92938,Ghost Rider: Spirit of Vengeance (2012),"['Action', 'Fantasy', 'Thriller']",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 92954,Prayers for Bobby (2009),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-93006,"Very Potter Musical, A (2009)","['Comedy', 'Musical']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
-93008,"Very Potter Sequel, A (2010)","['Comedy', 'Musical']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
 93022,Miss Nobody (2010),"['Comedy', 'Crime']",0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-93040,"Civil War, The (1990)","['Documentary', 'War']",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 93114,Ro.Go.Pa.G. (1963),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 93134,"Women on the 6th Floor, The (Les Femmes du 6ème Étage) (2010)",['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 93139,Mega Shark vs. Crocosaurus (2010),"['Action', 'Adventure', 'Horror']",0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
@@ -7862,7 +7801,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 93855,God Bless America (2011),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 93980,"Three Stooges, The (2012)",['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 93982,"Raven, The (2012)","['Mystery', 'Thriller']",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-93988,North & South (2004),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 94011,"Big Bang, The (2011)","['Action', 'Thriller']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 94015,Mirror Mirror (2012),"['Adventure', 'Comedy', 'Fantasy']",1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
 94018,Battleship (2012),"['Action', 'Sci-Fi', 'Thriller', 'IMAX']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
@@ -7935,9 +7873,7 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 95633,Spirit Camp (2009),['Horror'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 95654,Geri's Game (1997),"['Animation', 'Children']",0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
 95690,Some Guy Who Kills People (2011),"['Comedy', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
-95717,Treasure Island (2012),['Adventure'],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 95720,"Watch, The (2012)","['Comedy', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-95738,"Adventures of Mary-Kate and Ashley, The: The Case of the Christmas Caper (1995)","['Children', 'Musical', 'Mystery']",0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
 95744,2 Days in New York (2012),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 95761,Killer Joe (2011),"['Crime', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
 95771,Dragon Ball Z: Broly Second Coming (Doragon bôru Z 10: Kiken na futari! Sûpâ senshi wa nemurenai) (1994),"['Action', 'Adventure', 'Animation']",0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
@@ -7968,10 +7904,7 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 96430,"Odd Life of Timothy Green, The (2012)","['Comedy', 'Drama', 'Fantasy']",1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 96432,Lawless (2012),"['Crime', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 96448,Piranha 3DD (a.k.a. Piranha DD) (2012),"['Comedy', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
-96471,Prime Suspect 3 (1993),"['Crime', 'Drama', 'Mystery']",0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 96488,Searching for Sugar Man (2012),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-96518,Prime Suspect 6: The Last Witness (2003),"['Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
-96520,Prime Suspect: The Lost Child (1995),"['Drama', 'Mystery']",0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 96530,Conception (2011),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 96563,Paradise Lost 3: Purgatory (2011),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 96567,"Words, The (2012)","['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -8071,21 +8004,18 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 99191,Campfire Tales (1997),['Horror'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 99415,Parental Guidance (2012),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 99437,John Dies at the End (2012),"['Comedy', 'Fantasy', 'Horror']",1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
-99532,"Misérables, Les (2000)","['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 99574,Promised Land (2012),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 99636,English Vinglish (2012),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 99638,Fish Story (Fisshu sutôrî) (2009),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 99721,Texas Chainsaw 3D (2013),"['Horror', 'Mystery', 'Thriller']",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 99728,Gangster Squad (2013),"['Action', 'Crime', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 99750,"Iceman, The (2012)","['Crime', 'Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
-99764,It's Such a Beautiful Day (2012),"['Animation', 'Comedy', 'Drama', 'Fantasy', 'Sci-Fi']",1,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0
 99813,"Batman: The Dark Knight Returns, Part 2 (2013)","['Action', 'Animation']",0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 99846,Everything or Nothing: The Untold Story of 007 (2012),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 99853,Codependent Lesbian Space Alien Seeks Same (2011),"['Comedy', 'Romance', 'Sci-Fi']",0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 99910,"Last Stand, The (2013)","['Action', 'Crime', 'Thriller']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
 99917,Upstream Color (2013),"['Romance', 'Sci-Fi', 'Thriller']",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 99992,Shadow Dancer (2012),"['Crime', 'Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
-100044,Human Planet (2011),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 100068,Comme un chef (2012),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 100083,Movie 43 (2013),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 100106,"Pervert's Guide to Ideology, The (2012)",['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
@@ -8105,7 +8035,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 100498,"Good Day to Die Hard, A (2013)","['Action', 'Crime', 'Thriller', 'IMAX']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0
 100507,21 and Over (2013),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 100527,Safe Haven (2013),"['Drama', 'Mystery', 'Romance']",0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-100553,Frozen Planet (2011),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 100556,"Act of Killing, The (2012)",['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 100579,Universal Soldier: Day of Reckoning (2012),"['Action', 'Sci-Fi', 'Thriller']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 100611,Escape from Planet Earth (2013),"['Adventure', 'Animation', 'Comedy', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0
@@ -8267,7 +8196,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 105211,Enough Said (2013),"['Comedy', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 105213,Don Jon (2013),"['Comedy', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 105246,Mood Indigo (L'écume des jours) (2013),"['Drama', 'Fantasy']",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-105250,"Century of the Self, The (2002)",['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 105254,Crystal Fairy & the Magical Cactus and 2012 (2013),"['Adventure', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
 105325,Bad Milo (Bad Milo!) (2013),"['Comedy', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
 105351,Runner Runner (2013),"['Crime', 'Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
@@ -8300,7 +8228,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 106540,Delivery Man (2013),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 106542,Charlie Countryman (2013),"['Action', 'Comedy', 'Romance']",0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 106594,Red Flag (2012),"['Comedy', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
-106642,"Day of the Doctor, The (2013)","['Adventure', 'Drama', 'Sci-Fi']",0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 106648,Guilty of Romance (Koi no tsumi) (2011) ,"['Crime', 'Drama', 'Horror']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0
 106696,Frozen (2013),"['Adventure', 'Animation', 'Comedy', 'Fantasy', 'Musical', 'Romance']",1,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1
 106766,Inside Llewyn Davis (2013),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -8334,7 +8261,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 107702,Grudge Match (2013),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 107723,Highlander: The Search for Vengeance (2007),"['Action', 'Adventure', 'Fantasy']",1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 107771,Only Lovers Left Alive (2013),"['Drama', 'Horror', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0
-107780,Cats (1998),['Musical'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 107846,MacGyver: Trail to Doomsday (1994),"['Action', 'Adventure']",0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 107945,Bad Karma (2012),['Thriller'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 107951,Hunting Elephants (2013),"['Comedy', 'Crime']",0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
@@ -8352,7 +8278,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 108601,Drift (2013),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 108689,"I, Frankenstein (2014)","['Action', 'Fantasy', 'Sci-Fi', 'IMAX']",1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 108715,Better Living Through Chemistry (2014),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
-108727,Nymphomaniac: Volume I (2013),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 108729,Enemy (2013),"['Mystery', 'Thriller']",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 108795,Wonder Woman (2009),"['Action', 'Adventure', 'Animation', 'Fantasy']",1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
 108928,"Monuments Men, The (2014)","['Action', 'Drama', 'War']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -8554,7 +8479,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 115819,Mr Hublot (2013),"['Animation', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
 115828,Copenhagen (2014),"['Adventure', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 115877,"Simpsons: The Longest Daycare, The (2012)","['Animation', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
-115969,Generation War (2013),"['Drama', 'War']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 116044,Christmas in Connecticut (1992),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 116138,Leviathan (2014),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 116169,Reign of Assassins (2010),['Action'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -8639,7 +8563,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 119153,Bill Burr: You People Are All the Same (2012),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 119155,Night at the Museum: Secret of the Tomb (2014),"['Adventure', 'Children', 'Comedy', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0
 119167,Paradox (2010),"['Sci-Fi', 'Thriller']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-119218,The Punisher: Dirty Laundry (2012),"['Action', 'Crime', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 119655,Seventh Son (2014),"['Adventure', 'Children', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
 119714,Corner Gas: The Movie (2014),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 119828,A Man Called Blade (1977),"['Action', 'Drama', 'Thriller', 'Western']",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0
@@ -8659,7 +8582,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 120827,The Hound of the Baskervilles (1988),"['Crime', 'Drama', 'Horror', 'Mystery']",0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0
 120919,Man on High Heels (2014),"['Action', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 121007,Space Buddies (2009),"['Adventure', 'Children', 'Fantasy', 'Sci-Fi']",1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
-121035,Houdini (2014),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 121097,To Grandmother's House We Go (1992),"['Adventure', 'Children', 'Comedy']",0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0
 121099,101 Dalmatians II: Patch's London Adventure (2003),"['Animation', 'Children']",0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
 121129,The Hungover Games (2014),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -8676,7 +8598,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 121781,Stuart Little 3: Call of the Wild (2005),"['Animation', 'Children', 'Comedy', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
 122092,Guy X (2005),"['Comedy', 'War']",0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 122246,Tooth Fairy 2 (2012),"['Children', 'Comedy']",0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
-122260,The Diary of Anne Frank (2009),"['Drama', 'War']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 122433,The Deadly Bees (1967),"['Horror', 'Mystery', 'Thriller']",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 122490,Wicked Blood (2014),"['Action', 'Drama', 'Thriller']",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 122627,Oblivion 2: Backlash (1996),['Sci-Fi'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -8698,7 +8619,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 122920,Captain America: Civil War (2016),"['Action', 'Sci-Fi', 'Thriller']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 122922,Doctor Strange (2016),"['Action', 'Adventure', 'Sci-Fi']",0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 122924,X-Men: Apocalypse (2016),"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-122926,Untitled Spider-Man Reboot (2017),"['Action', 'Adventure', 'Fantasy']",1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 122932,Elsa & Fred (2014),"['Children', 'Comedy', 'Romance']",0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0
 123200,Jim Jefferies: I Swear to God (2009),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 123310,Tornado! (1996),['Action'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -8721,7 +8641,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 126142,The Cave of the Golden Rose (1991),"['Adventure', 'Children', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
 126420,American Heist (2015),['Action'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 126426,Solyaris (1968),"['Drama', 'Sci-Fi']",0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-126430,The Pacific (2010),"['Action', 'Adventure', 'Drama', 'War']",0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 126482,Strange Magic (2015),"['Animation', 'Children', 'Fantasy', 'Musical']",1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1
 126548,The DUFF (2015),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 126577,"Daddy, I'm A Zombie (2012)","['Animation', 'Comedy', 'Fantasy']",1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
@@ -8740,7 +8659,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 127152,Going Clear: Scientology and the Prison of Belief (2015),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 127164,"What Happened, Miss Simone? (2015)",['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 127172,A Story of Children and Film (2013),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-127180,"Story of Film: An Odyssey, The (2011)",['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 127184,Eden (2014),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 127194,The D Train (2015),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 127198,Dope (2015),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
@@ -8750,7 +8668,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 127298,A Pigeon Sat on a Branch Reflecting on Existence (2014),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 127319,The Loft (2014),['Thriller'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 127323,Vice (2015),"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
-127390,Family Guy Presents: Blue Harvest (2007),"['Animation', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
 128087,Trinity and Sartana Are Coming (1972),"['Comedy', 'Western']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
 128089,Kevin Hart: I'm a Grown Little Man (2009),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 128097,Jim Norton: American Degenerate (2013),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -8811,7 +8728,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 130634,Furious 7 (2015),"['Action', 'Crime', 'Thriller']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
 130686,The Final Girls (2015),"['Comedy', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
 130840,Spring (2015),"['Horror', 'Romance', 'Sci-Fi']",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-130842,Power/Rangers (2015),"['Action', 'Adventure', 'Sci-Fi']",0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 130970,George Carlin: Life Is Worth Losing (2005),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 130976,Legend No. 17 (2013),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 130978,Love and Pigeons (1985),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -8827,7 +8743,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 131610,Willy/Milly (1986),"['Comedy', 'Fantasy']",1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 131656,Shaun the Sheep Movie (2015),"['Adventure', 'Animation', 'Children', 'Comedy']",0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0
 131714,Last Knights (2015),"['Action', 'Adventure']",0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-131724,The Jinx: The Life and Deaths of Robert Durst (2015),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 131739,Batman vs. Robin (2015),"['Action', 'Adventure', 'Animation']",0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
 131749,Libre et assoupi (2014),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 131796,Woman in Gold (2015),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -8971,7 +8886,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 137517,Carnival Magic (1981),"['Drama', 'Fantasy']",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 137595,Magic Mike XXL (2015),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 137857,The Jungle Book (2016),"['Adventure', 'Drama', 'Fantasy']",1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
-137859,Dragon Ball Z Gaiden: The Plot to Destroy the Saiyans (1993),"['Action', 'Adventure', 'Animation']",0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
 137863,Dragon Ball Z: Resurrection of F (2015),"['Action', 'Adventure', 'Animation', 'Fantasy']",1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
 138036,The Man from U.N.C.L.E. (2015),"['Action', 'Adventure', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
 138186,Sorrow (2015),"['Crime', 'Drama', 'Horror']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0
@@ -8987,7 +8901,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 138835,Return to Treasure Island (1988),"['Adventure', 'Animation', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0
 138966,Nasu: Summer in Andalusia (2003),['Animation'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 139052,Dark Places (2015),"['Drama', 'Mystery', 'Thriller']",0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
-139130,Afro Samurai (2007),"['Action', 'Adventure', 'Animation', 'Drama', 'Fantasy']",1,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
 139157,Massu Engira Maasilamani (2015),"['Comedy', 'Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0
 139385,The Revenant (2015),"['Adventure', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 139415,Irrational Man (2015),"['Crime', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
@@ -9016,7 +8929,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 140289,Men & Chicken (2015),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 140301,The Escort (2015),"['Comedy', 'Romance']",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 140359,Doctor Who: The Waters of Mars (2009),"['Adventure', 'Children', 'Sci-Fi']",0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
-140481,"Family Guy Presents: Something, Something, Something, Dark Side (2009)","['Animation', 'Comedy', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
 140523,"Visit, The (2015)","['Comedy', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
 140525,Secret in Their Eyes (2015),"['Crime', 'Drama', 'Mystery']",0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 140541,The Electric Hotel (1908),"['Animation', 'Comedy', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
@@ -9025,7 +8937,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 140711,American Ultra (2015),"['Action', 'Comedy', 'Sci-Fi', 'Thriller']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
 140715,Straight Outta Compton (2015),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 140725,Cop Car (2015),"['Crime', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-140737,The Lost Room (2006),"['Action', 'Fantasy', 'Mystery']",1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 140816,Tangerine (2015),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 140850,Every Secret Thing (2014),"['Crime', 'Drama', 'Mystery', 'Thriller']",0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
 140852,964 Pinocchio (1991),"['Horror', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
@@ -9045,7 +8956,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 141749,The Danish Girl (2015),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 141799,Cooties (2015),"['Comedy', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
 141810,Autumn Marathon (1979),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
-141816,12 Chairs (1976),"['Adventure', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
 141818,Ordinary Miracle (1978),"['Comedy', 'Drama', 'Fantasy', 'Romance']",1,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 141820,Old Men: Robbers (1971),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 141830,Unbelievable Adventures of Italians in Russia (1974),"['Adventure', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
@@ -9059,7 +8969,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 142020,Oscar (1967),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 142056,Iron Man & Hulk: Heroes United (2013),"['Action', 'Adventure', 'Animation']",0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
 142074,Knock Knock (2015),"['Crime', 'Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0
-142115,The Blue Planet (2001),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 142196,Cornered! (2009),"['Comedy', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
 142222,Demolition (2016),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 142366,Cigarette Burns (2005),"['Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
@@ -9142,8 +9051,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 147286,The Adventures of Sherlock Holmes and Doctor Watson: The Treasures of Agra (1983),"['Crime', 'Mystery']",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 147300,Adventures Of Sherlock Holmes And Dr. Watson: The Twentieth Century Approaches (1986),"['Crime', 'Mystery']",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 147326,The Adventures of Sherlock Holmes and Doctor Watson: King of Blackmailers (1980),"['Crime', 'Mystery']",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-147328,The Adventures of Sherlock Holmes and Dr. Watson: Bloody Signature (1979),['Crime'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-147330,Sherlock Holmes and Dr. Watson: Acquaintance (1979),['Crime'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 147372,Doctor Who: Last Christmas (2014),"['Adventure', 'Drama', 'Fantasy', 'Sci-Fi']",1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 147374,"Doctor Who: The Doctor, the Widow and the Wardrobe (2011)","['Adventure', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 147376,Doctor Who: A Christmas Carol (2010),['Sci-Fi'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -9166,7 +9073,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 148652,The Ridiculous 6 (2015),"['Comedy', 'Western']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
 148667,John Mulaney: The Comeback Kid (2015),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 148671,Saw (2003),"['Crime', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
-148675,North Pole: Open For Christmas (2015),"['Children', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 148709,Mojave (2015),['Thriller'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 148775,Wizards of Waverly Place: The Movie (2009),"['Adventure', 'Children', 'Comedy', 'Drama', 'Fantasy', 'Sci-Fi']",1,0,0,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0
 148881,World of Tomorrow (2015),"['Animation', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
@@ -9192,7 +9098,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 149902,Garm Wars: The Last Druid (2014),"['Action', 'Sci-Fi', 'Thriller']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 150254,The Devil's Candy (2015),['Horror'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 150401,Close Range (2015),"['Action', 'Crime']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-150548,Sherlock: The Abominable Bride (2016),"['Action', 'Crime', 'Drama', 'Mystery', 'Thriller']",0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
 150554,The Love Bug (1997),"['Adventure', 'Children', 'Comedy', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0
 150596,Doctor Who: The Husbands of River Song (2015),"['Comedy', 'Drama', 'Sci-Fi']",0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 150604,Moonwalkers (2015),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -9212,7 +9117,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 151739,Dirty Grandpa (2016),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 151745,Reptilicus (1961),"['Horror', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 151759,Requiem for the American Dream (2015),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-151763,Death Note Rewrite: Genshisuru Kami (2007),['Mystery'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 151769,Three from Prostokvashino (1978),['Animation'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 151777,The Finest Hours (2016),"['Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 151781,Ghost in the Shell: Solid State Society (2006),"['Action', 'Animation', 'Crime', 'Sci-Fi', 'Thriller']",0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0
@@ -9229,7 +9133,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 152105,Dad's Army (1971),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 152173,Michael Jackson's Thriller (1983),['Horror'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 152270,The Wait (2015),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-152284,War and Peace (2016),"['Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 152372,Southbound (2016),['Horror'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 152591,Ip Man 3 (2015),['Action'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 152658,Santa's Little Helper (2015),['Children'],0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -9317,7 +9220,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 159755,Popstar: Never Stop Never Stopping (2016),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 159779,A Midsummer Night's Dream (2016),['(no genres listed)'],0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
 159811,The Bremen Town Musicians (1969),"['Animation', 'Drama', 'Fantasy']",1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0
-159817,Planet Earth (2006),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 159849,Bo Burnham: Make Happy (2016),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 159858,The Conjuring 2 (2016),['Horror'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 159976,Pelé: Birth of a Legend (2016),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -9386,7 +9288,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 163639,DC Super Hero Girls: Hero of the Year (2016),['Animation'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 163645,Hacksaw Ridge (2016),"['Drama', 'War']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 163653,David Cross: Making America Great Again (2016),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-163809,Over the Garden Wall (2013),"['Adventure', 'Animation', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
 163925,"Wings, Legs and Tails (1986)","['Animation', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
 163937,Blair Witch (2016),"['Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 163981,31 (2016),['Horror'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
@@ -9488,7 +9389,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 169992,Free Fire (2017),"['Action', 'Crime', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
 170289,Species III (2004),"['Action', 'Horror', 'Sci-Fi']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 170297,Ultimate Avengers 2 (2006),"['Action', 'Animation', 'Sci-Fi']",0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-170355,Mulholland Dr. (1999),"['Drama', 'Mystery', 'Romance']",0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 170357,Dave Chappelle: The Age of Spin (2017),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 170399,CHiPS (2017),"['Action', 'Comedy', 'Drama']",0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 170401,Table 19 (2017),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
@@ -9496,7 +9396,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 170551,The Quiet Family (1998),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 170597,A Plasticine Crow (1981),['Animation'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 170697,Gifted (2017),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-170705,Band of Brothers (2001),"['Action', 'Drama', 'War']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 170777,There Once Was a Dog (1982),"['Animation', 'Children', 'Comedy']",0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
 170813,Baywatch (2017),"['Action', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 170817,Snatched (2017),"['Action', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -9510,7 +9409,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 170945,It Comes at Night (2017),"['Horror', 'Mystery', 'Thriller']",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 170957,Cars 3 (2017),"['Adventure', 'Animation', 'Comedy']",0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0
 170993,Mini's First Time (2006),"['Comedy', 'Crime', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0
-171011,Planet Earth II (2016),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 171023,The Hero (2017),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 171251,"Nobody Speak: Hulk Hogan, Gawker and Trials of a Free Press (2017)",['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 171495,Cosmos,['(no genres listed)'],0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
@@ -9533,7 +9431,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 172253,The Night Before (1988),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 172321,Late Night with Conan O'Brien: The Best of Triumph the Insult Comic Dog (2004),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 172461,Get Me Roger Stone (2017),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-172497,T2 3-D: Battle Across Time (1996),['(no genres listed)'],0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
 172547,Despicable Me 3 (2017),"['Adventure', 'Animation', 'Children', 'Comedy']",0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0
 172577,Last Year's Snow Was Falling (1983),"['Animation', 'Children', 'Comedy', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
 172583,Investigation Held by Kolobki (1986),['Animation'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
@@ -9548,7 +9445,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 172875,A Detective Story (2003),"['Animation', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 172881,Final Flight of the Osiris (2003),"['Action', 'Animation', 'Sci-Fi']",0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 172887,Kid's Story (2003),"['Animation', 'Sci-Fi']",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-172909,Cheburashka (1971),['Animation'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 173145,War for the Planet of the Apes (2017),"['Action', 'Adventure', 'Drama', 'Sci-Fi']",0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
 173197,The Square (2017),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 173205,The Meyerowitz Stories (2017),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -9561,18 +9457,14 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 173317,Shadow World (2016),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 173351,Wow! A Talking Fish! (1983),"['Animation', 'Children', 'Comedy', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
 173355,Travels of an Ant (1983),['Animation'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-173535,The Adventures of Sherlock Holmes and Doctor Watson: The Hunt for the Tiger (1980),['(no genres listed)'],0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
 173619,Fugitives (1986),"['Comedy', 'Crime']",0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
 173751,Tiger Raid (2016),['Thriller'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-173873,Gulliver's Travels (1996),"['Adventure', 'Children', 'Fantasy']",1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
 173925,Seven Sisters (2017),"['Sci-Fi', 'Thriller']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 173941,Atomic Blonde (2017),['Thriller'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 173963,Empties (2007),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 174045,Goon: Last of the Enforcers (2017),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-174053,Black Mirror: White Christmas (2014),"['Drama', 'Horror', 'Mystery', 'Sci-Fi', 'Thriller']",0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
 174055,Dunkirk (2017),"['Action', 'Drama', 'Thriller', 'War']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
 174141,Belladonna of Sadness (1973),"['Animation', 'Drama', 'Fantasy']",1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0
-174403,The Putin Interviews (2017),['(no genres listed)'],0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
 174479,Unedited Footage of a Bear (2014),"['Horror', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 174551,Obsession (1965),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 174681,"Oh, Hello: On Broadway (2017)",['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -9595,14 +9487,12 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 175577,Rory Scovel Tries Stand-Up for the First Time (2017),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 175585,Shot Caller (2017),"['Action', 'Crime', 'Drama', 'Thriller']",0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
 175661,The Hitman's Bodyguard (2017),"['Action', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-175693,Rick and Morty: State of Georgia Vs. Denver Fenton Allen (2016),"['Comedy', 'Crime']",0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
 175705,Themroc (1973),"['Comedy', 'Horror']",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
 175707,A German Life (2016),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 175743,Self-criticism of a Bourgeois Dog (2017),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 175781,Der Herr Karl (1961),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 176051,LEGO DC Super Hero Girls: Brain Drain (2017),['Animation'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 176101,Kingsman: The Golden Circle (2017),"['Action', 'Adventure', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
-176329,Ari Shaffir: Double Negative (2017),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 176371,Blade Runner 2049 (2017),['Sci-Fi'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 176389,The Nut Job 2: Nutty by Nature (2017),"['Adventure', 'Animation', 'Children', 'Comedy']",0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0
 176413,Bliss (2012),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -9633,7 +9523,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 179073,Male Hunt (1964),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 179119,The Death of Stalin (2017),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 179133,Loving Vincent (2017),"['Animation', 'Crime', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0
-179135,Blue Planet II (2017),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 179211,Christina P: Mother Inferior (2017),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 179401,Jumanji: Welcome to the Jungle (2017),"['Action', 'Adventure', 'Children']",0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
 179427,Dane Cook: Troublemaker (2014),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -9650,11 +9539,9 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 180045,Molly's Game (2017),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 180095,Wonder (2017),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 180231,Daddy's Home 2 (2017),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
-180263,The Shining (1997),"['Drama', 'Horror', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
 180265,Jim & Andy: The Great Beyond (2017),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 180297,The Disaster Artist (2017),"['Comedy', 'Drama']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 180497,The Post (2017),"['Drama', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
-180777,Die Frauen von Ravensbrück (2005),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 180985,The Greatest Showman (2017),['Drama'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 180987,Ferdinand (2017),"['Animation', 'Children', 'Comedy']",0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
 181065,Jack Whitehall: At Large (2017),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -9689,7 +9576,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 184053,Battle Planet (2008),"['Action', 'Sci-Fi']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 184245,De platte jungle (1978),['Documentary'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 184253,The Cloverfield Paradox (2018),"['Horror', 'Mystery', 'Sci-Fi', 'Thriller']",0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-184257,Making a Murderer (2015),"['Crime', 'Documentary']",0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
 184349,Elsa & Fred (2005),"['Comedy', 'Drama', 'Romance']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
 184471,Tomb Raider (2018),"['Action', 'Adventure', 'Fantasy']",1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 184641,Fullmetal Alchemist 2018 (2017),"['Action', 'Adventure', 'Fantasy']",1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
@@ -9701,7 +9587,6 @@ movieId,title,genres,Fantasy,War,Action,Sci-Fi,Mystery,Romance,Children,Drama,Fi
 185029,A Quiet Place (2018),"['Drama', 'Horror', 'Thriller']",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
 185031,Alpha (2018),"['Adventure', 'Thriller']",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
 185033,I Kill Giants (2018),"['Drama', 'Fantasy', 'Thriller']",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
-185135,Sherlock - A Study in Pink (2010),['Crime'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 185435,"Game Over, Man! (2018)","['Action', 'Comedy']",0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 185473,Blockers (2018),['Comedy'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 185585,Pacific Rim: Uprising (2018),"['Action', 'Fantasy', 'Sci-Fi']",1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

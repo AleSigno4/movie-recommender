@@ -6,6 +6,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
   const [sortOpen, setSortOpen] = useState(false);
 
   const sortOptions = [
+    { label: "Default", value: "default" },
     { label: "Alphabetic", value: "title_asc" },
     { label: "Top Rated", value: "rating_desc" },
     { label: "Newest", value: "year_desc" },

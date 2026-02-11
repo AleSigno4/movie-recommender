@@ -3,6 +3,14 @@ import { useState } from "react";
 export default function SearchBar({ genres, years, filters, onChange }) {
   const [genreOpen, setGenreOpen] = useState(false);
   const [yearOpen, setYearOpen] = useState(false);
+  const [sortOpen, setSortOpen] = useState(false);
+
+  const sortOptions = [
+    { label: "Alphabetic", value: "title_asc" },
+    { label: "Top Rated", value: "rating_desc" },
+    { label: "Newest", value: "year_desc" },
+    { label: "Oldest", value: "year_asc" }
+  ];
 
   return (
     <div className="flex items-center space-x-4 my-5 mt-2 mx-12">
@@ -59,7 +67,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
                 key={year}
                 className="p-2 cursor-pointer hover:bg-orange-500 hover:text-white transition-colors duration-200"
                 onClick={() => {
-                   onChange("year", year);
+                  onChange("year", year);
                   setYearOpen(false);
                 }}
               >
@@ -82,6 +90,37 @@ export default function SearchBar({ genres, years, filters, onChange }) {
           setYearOpen(false);
         }}
       />
+
+      {/* Order filter */}
+      <div className="relative">
+        <div
+          onClick={() => {
+            setSortOpen(!sortOpen);
+            setYearOpen(false);
+            setGenreOpen(false);
+          }}
+          className="p-2 bg-midnight-light text-white border-2 border-orange-400 rounded-lg cursor-pointer w-36 text-left focus:outline-none"
+        >
+          <span className="text-white text-xs block">Sort by: {sortOptions.find(o => o.value === filters.sortBy)?.label || "Default"}</span>
+        </div>
+
+        {sortOpen && (
+          <ul className="absolute right-0 top-full mt-1 w-full bg-midnight-light rounded-lg border border-gray-600 shadow-xl z-20">
+            {sortOptions.map((opt) => (
+              <li
+                key={opt.value}
+                className="p-2 cursor-pointer hover:bg-orange-500 hover:text-white transition-colors"
+                onClick={() => {
+                  onChange("sortBy", opt.value);
+                  setSortOpen(false);
+                }}
+              >
+                {opt.label}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     </div>
   );
 }

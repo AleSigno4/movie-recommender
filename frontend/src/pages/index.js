@@ -13,6 +13,7 @@ export default function Home() {
     query: "",
     genre: "All Genres",
     year: "All Years",
+    sortBy: "default",
   });
 
   // Movies and loading state
@@ -27,12 +28,15 @@ export default function Home() {
     ...new Set(
       movies.flatMap((m) => {
         if (!m.genres) return [];
-        const genreData = Array.isArray(m.genres) ? m.genres : m.genres.split("|");
+        const genreData = Array.isArray(m.genres)
+          ? m.genres
+          : m.genres.split("|");
         return genreData;
-      })
+      }),
     ),
-  ].filter((g) => g !== "(no genres listed)" && g.trim() !== "")
-  .sort();
+  ]
+    .filter((g) => g !== "(no genres listed)" && g.trim() !== "")
+    .sort();
   const genres = ["All Genres", ...sortedUniqueGenres];
 
   const years = ["All Years", ...new Set(movies.map((m) => m.year))].sort(
@@ -49,7 +53,7 @@ export default function Home() {
 
   // Effect to filter movies when filters change (title, genre, year)
   useEffect(() => {
-    let filtered = movies;
+    let filtered = [...movies];
 
     if (filters.query) {
       filtered = filtered.filter((m) =>
@@ -66,6 +70,14 @@ export default function Home() {
 
     if (filters.year !== "All Years") {
       filtered = filtered.filter((m) => m.year === filters.year);
+    }
+
+    if (filters.sortBy === "rating_desc") {
+      filtered.sort((a, b) => (b.avg_rating || 0) - (a.avg_rating || 0));
+    } else if (filters.sortBy === "year_desc") {
+      filtered.sort((a, b) => b.year - a.year);
+    } else if (filters.sortBy === "year_asc") {
+      filtered.sort((a, b) => a.year - b.year);
     }
     
     setAllFilteredMovies(filtered);
@@ -101,12 +113,12 @@ export default function Home() {
   const loadMore = () => {
     const start = page * MOVIES_PER_PAGE;
     const end = start + MOVIES_PER_PAGE;
-    
+
     const moreMovies = allFilteredMovies.slice(start, end);
-    
+
     if (moreMovies.length > 0) {
-      setDisplayedMovies(prev => [...prev, ...moreMovies]);
-      setPage(prev => prev + 1);
+      setDisplayedMovies((prev) => [...prev, ...moreMovies]);
+      setPage((prev) => prev + 1);
     }
   };
 

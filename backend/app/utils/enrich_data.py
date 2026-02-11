@@ -21,14 +21,15 @@ OUTPUT_PATH = BASE_DIR / "data" / "cleaned" / "movies_enriched.csv"
 
 # Function to fetch poster URL and overview from TMDb API
 def fetch_tmdb_details(tmdb_id):
+    # CORRETTO: Ritorna 3 valori (aggiunto un None)
     if pd.isna(tmdb_id) or tmdb_id == 0:
-        return None, None
+        return None, None, None
     
     headers = {
         "accept": "application/json",
         "Authorization": f"Bearer {API_KEY}"
     }
-    params = {"language": "it-IT"}
+    params = {"language": "en-US"}
     
     try:
         response = requests.get(
@@ -41,13 +42,14 @@ def fetch_tmdb_details(tmdb_id):
         if response.status_code == 200:
             data = response.json()
             p_path = data.get('poster_path')
-            # Build full poster URL if path exists, else None
             poster_url = f"{IMAGE_BASE_URL}{p_path}" if p_path else None
+            minutes = data.get('runtime')
             overview = data.get('overview')
-            return poster_url, overview
-        return None, None
+            return poster_url, minutes, overview
+        
+        return None, None, None
     except:
-        return None, None
+        return None, None, None
 
 def main():
     print("Caricamento file CSV...")
@@ -63,16 +65,19 @@ def main():
     print(f"--- Inizio arricchimento di {len(df)} film ---")
     
     posters = []
+    runtimes = []
     overviews = []
 
     # Processing each movie to fetch poster URL and overview
     for tmdb_id in tqdm(df['tmdbId'], desc="Scaricamento dati TMDb"):
-        p_url, desc = fetch_tmdb_details(tmdb_id)
+        p_url, run, desc = fetch_tmdb_details(tmdb_id)
         posters.append(p_url)
+        runtimes.append(run)
         overviews.append(desc)
         time.sleep(0.05) 
 
     df['poster_url'] = posters
+    df['runtime'] = runtimes
     df['overview'] = overviews
     
     df.rename(columns={'tmdbId': 'tmdb_id'}, inplace=True)

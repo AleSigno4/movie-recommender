@@ -1,5 +1,4 @@
 from pydantic import BaseModel
-from typing import List
 
 # Define the Movie model
 class Movie(BaseModel):
@@ -9,4 +8,5 @@ class Movie(BaseModel):
     poster_url: str
     year: int
     rating: float
+    minutes: int
     description: str

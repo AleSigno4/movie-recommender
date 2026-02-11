@@ -76,7 +76,10 @@ export default function MoviePage() {
             className="w-full md:w-80 rounded-xl shadow-2xl self-start"
           />
           <div className="flex-1">
-            <h1 className="text-4xl font-bold mb-2">{movie.title}</h1>
+            <div className="flex items-baseline gap-4 mb-4">
+              <h1 className="text-4xl font-bold">{movie.title}</h1>
+              <p className="text-gray-400 text-md">{movie.runtime} min</p>
+            </div>
             <div className="flex items-center gap-4 mb-4">
               <p className="text-gray-400 text-xl leading-none">{movie.year}</p>
               <div className="bg-orange-500 flex items-center px-3 py-1.5 rounded-xl text-sm font-bold leading-none">

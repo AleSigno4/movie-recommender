@@ -31,7 +31,7 @@ def get_movies():
     # Select only the columns we need and handle missing values
     cols_to_keep = [
         'movieId', 'title', 'genres', 'year', 
-        'avg_rating', 'poster_url', 'overview', 'tmdb_id'
+        'avg_rating', 'poster_url', 'runtime', 'overview', 'tmdb_id'
     ]
 
     movies_df = movies_df.astype(object).where(pd.notnull(movies_df), None)

@@ -1,6 +1,11 @@
+/**
+ * SearchBar Component
+ * Provides multi-select filters for Genre and Year, a text search input, and a dropdown for sorting results.
+ */
 import { useState } from "react";
 
 export default function SearchBar({ genres, years, filters, onChange }) {
+  // Local state to manage dropdown visibility
   const [genreOpen, setGenreOpen] = useState(false);
   const [yearOpen, setYearOpen] = useState(false);
   const [sortOpen, setSortOpen] = useState(false);
@@ -15,26 +20,28 @@ export default function SearchBar({ genres, years, filters, onChange }) {
 
   return (
     <div className="flex items-center space-x-4 my-5 mt-2 mx-12">
-      {/* Genre */}
+
+      {/* --- GENRE FILTER --- */}
       <label className="text-white text-lg">Genre:</label>
-      {/* Dropdown */}
+      {/* Dropdown Trigger */}
       <div className="relative">
         <div
           onClick={() => {
             setGenreOpen(!genreOpen);
-            setYearOpen(false);
+            setYearOpen(false); // Close other menus to avoid UI overlap
           }}
           className="p-2 bg-midnight-light text-white border-2 border-gray-400 rounded-lg cursor-pointer w-48 text-left focus:outline-none flex items-center justify-between"
         >
           <span
             className="truncate whitespace-nowrap overflow-hidden block"
-            title={filters.genre.join(", ")}
+            title={filters.genre.join(", ")} // Native tooltip for long selections
           >
             {filters.genre.length > 0 ? filters.genre.join(", ") : "All Genres"}
           </span>
           <span className="ml-2">▾</span>
         </div>
 
+        {/* Multi-select Genre Menu */}
         {genreOpen && (
           <ul className="absolute left-0 top-full mt-1 w-full bg-midnight-light rounded-lg max-h-60 overflow-auto z-10">
             {genres.map((genre) => {
@@ -51,8 +58,9 @@ export default function SearchBar({ genres, years, filters, onChange }) {
                   }`}
                   onClick={() => {
                     if (isAllGenres) {
-                      onChange("genre", []);
+                      onChange("genre", []);  // Reset selection
                     } else {
+                      // Toggle genre in selection array
                       const newGenres = isSelected
                         ? filters.genre.filter((g) => g !== genre)
                         : [...filters.genre, genre];
@@ -67,6 +75,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
                 </li>
               );
             })}
+            {/* Sticky Close Button for better UX on long lists */}
             <li
               className="sticky bottom-0 bg-midnight p-2 border-t border-gray-600 text-center bg-orange-600 hover:bg-orange-700 font-bold cursor-pointer transition-colors"
               onClick={() => setGenreOpen(false)}
@@ -77,14 +86,14 @@ export default function SearchBar({ genres, years, filters, onChange }) {
         )}
       </div>
 
-      {/* Year */}
+      {/* --- YEAR FILTER --- */}
       <label className="text-white text-lg">Year:</label>
       {/* Dropdown */}
       <div className="relative">
         <div
           onClick={() => {
             setYearOpen(!yearOpen);
-            setGenreOpen(false);
+            setGenreOpen(false); // Close other menus to avoid UI overlap
           }}
           className="p-2 bg-midnight-light text-white border-2 border-gray-400 rounded-lg cursor-pointer w-48 text-left focus:outline-none flex items-center justify-between"
         >
@@ -100,7 +109,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
           </span>
           <span className="ml-2">▾</span>
         </div>
-
+        
         {yearOpen && (
           <ul className="absolute left-0 top-full mt-1 w-full bg-midnight-light rounded-lg max-h-60 overflow-auto z-10">
             {years.map((year) => {
@@ -142,8 +151,9 @@ export default function SearchBar({ genres, years, filters, onChange }) {
         )}
       </div>
 
-      {/* Search input */}
+      {/* --- TEXT SEARCH INPUT --- */}
       <div className="relative flex-1 ml-6">
+        {/* Search Icon */}
         <div className="absolute left-3 top-1/2 -translate-y-1/2 text-white/40 pointer-events-none">
           <i className="fa-solid fa-magnifying-glass text-sm"></i>
         </div>
@@ -154,11 +164,13 @@ export default function SearchBar({ genres, years, filters, onChange }) {
           value={filters.query}
           onChange={(e) => onChange("query", e.target.value)}
           onFocus={() => {
+            // Auto-close any open dropdown when typing
             setGenreOpen(false);
             setYearOpen(false);
             setSortOpen(false);
           }}
         />
+        {/* Clear Search Button - Visible only when query exists */}
         {filters.query && (
           <button
             onClick={() => onChange("query", "")}
@@ -170,7 +182,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
         )}
       </div>
 
-      {/* Order filter */}
+      {/* --- SORTING OPTIONS --- */}
       <div className="relative">
         <div
           onClick={() => {
@@ -195,7 +207,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
                 className="p-2 cursor-pointer hover:bg-orange-500 hover:text-white transition-colors"
                 onClick={() => {
                   onChange("sortBy", opt.value);
-                  setSortOpen(false);
+                  setSortOpen(false); // Close after selection
                 }}
               >
                 {opt.label}

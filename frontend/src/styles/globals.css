@@ -2,15 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Sfondo scuro globale */
+/* Global Styles 
+  Setting the default background and text color using Tailwind's @apply 
+  to ensure consistency with the theme defined in tailwind.config.js.
+*/
 body {
   @apply bg-midnight-blue text-white;
 }
 
-/* Nasconde la barra di scorrimento per gli elementi con classe .scrollbar-hide */
+/* Custom Utility Classes 
+  Extending Tailwind with a 'scrollbar-hide' utility.
+  This is useful for clean UI designs (like horizontal sliders) while 
+  maintaining scroll functionality across different browsers.
+*/
 @layer utilities {
   .scrollbar-hide::-webkit-scrollbar {
-    display: none;
+    display: none; /* Chrome, Safari e Opera */
   }
   .scrollbar-hide {
     -ms-overflow-style: none; /* IE e Edge */

@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from "react";
 
+/**
+ * Bottone "Scroll to Top" con apparizione fluida al superamento di una soglia
+ */
+
 export default function BtnToTop() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const toggleVisibility = () => {
-      if (window.pageYOffset > 300) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
+      // 300px for scroll threshold, can be adjusted as needed
+      setIsVisible(window.pageYOffset > 300);
     };
 
     window.addEventListener("scroll", toggleVisibility);
@@ -32,7 +33,7 @@ export default function BtnToTop() {
         hover:bg-orange-600 hover:scale-110 active:scale-95`}
       aria-label="Scroll to top"
     >
-      <svg
+      <svg /* Icon: Heroicons outline/chevron-up */
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"

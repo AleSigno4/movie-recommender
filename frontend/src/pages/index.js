@@ -1,3 +1,5 @@
+// Main page component that displays header, search bar, movie cards with infinite scroll, and footer. It also handles filtering and sorting of movies based on user input.
+
 import { useState, useEffect } from "react";
 import Header from "../components/Header";
 import MovieCard from "../components/MovieCard";
@@ -7,6 +9,7 @@ import { getMovies } from "../services/api";
 import BtnToTop from "../components/BtnToTop";
 import MovieCardSkeleton from "../components/MovieCardSkeleton";
 
+// Number of movies to load per page for infinite scroll
 const MOVIES_PER_PAGE = 20;
 
 export default function Home() {
@@ -145,6 +148,7 @@ export default function Home() {
         onChange={updateFilter}
       />
       <div className="flex flex-wrap justify-start gap-4 mx-12">
+        {/* Show skeletons while loading, otherwise show movie cards */}
         {loading
           ?
             Array.from({ length: 10 }).map((_, i) => (
@@ -161,6 +165,8 @@ export default function Home() {
                 overview={movie.overview}
               />
             ))}
+          
+        {/* Show message if no movies found after loading */}
         {!loading && displayedMovies.length === 0 && (
           <div className="text-gray-500 text-xl mt-10">
             <i className="fa-solid fa-ghost"></i> Ops! No movies found with these filters. Try resetting them!

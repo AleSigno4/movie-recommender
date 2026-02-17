@@ -1,18 +1,24 @@
 {
-  "name": "frontend",
+  "name": "film-finder-frontend",
   "version": "1.0.0",
-  "description": "",
+  "description": "A modern movie recommendation engine built with Next.js, FastAPI, and Tailwind CSS.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "movie-recommender",
+    "fastapi"],
+  "author": "Alessandro Signori",
+  "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "next": "^16.1.1",

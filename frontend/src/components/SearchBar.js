@@ -90,7 +90,11 @@ export default function SearchBar({ genres, years, filters, onChange }) {
         >
           <span
             className="truncate whitespace-nowrap overflow-hidden block"
-            title={filters.year.length > 0 ? filters.year.map(String).join(", ") : "All Years"}
+            title={
+              filters.year.length > 0
+                ? filters.year.map(String).join(", ")
+                : "All Years"
+            }
           >
             {filters.year.length > 0 ? filters.year.join(", ") : "All Years"}
           </span>
@@ -139,17 +143,32 @@ export default function SearchBar({ genres, years, filters, onChange }) {
       </div>
 
       {/* Search input */}
-      <input
-        type="text"
-        placeholder="Search for a movie..."
-        className="flex-1 p-2 bg-midnight-light text-white placeholder-white/70 border-2 border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400 ml-6"
-        value={filters.query}
-        onChange={(e) => onChange("query", e.target.value)}
-        onFocus={() => {
-          setGenreOpen(false);
-          setYearOpen(false);
-        }}
-      />
+      <div className="relative flex-1 ml-6">
+        <div className="absolute left-3 top-1/2 -translate-y-1/2 text-white/40 pointer-events-none">
+          <i className="fa-solid fa-magnifying-glass text-sm"></i>
+        </div>
+        <input
+          type="text"
+          placeholder="Search for a movie..."
+          className="w-full p-2 pl-10 pr-10 bg-midnight-light text-white placeholder-white/70 border-2 border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400"
+          value={filters.query}
+          onChange={(e) => onChange("query", e.target.value)}
+          onFocus={() => {
+            setGenreOpen(false);
+            setYearOpen(false);
+            setSortOpen(false);
+          }}
+        />
+        {filters.query && (
+          <button
+            onClick={() => onChange("query", "")}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-orange-400 transition-colors cursor-pointer"
+            type="button"
+          >
+            <i className="fa-solid fa-xmark"></i>
+          </button>
+        )}
+      </div>
 
       {/* Order filter */}
       <div className="relative">

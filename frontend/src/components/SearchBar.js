@@ -90,7 +90,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
         >
           <span
             className="truncate whitespace-nowrap overflow-hidden block"
-            title={filters.year.join(", ")}
+            title={filters.year.length > 0 ? filters.year.map(String).join(", ") : "All Years"}
           >
             {filters.year.length > 0 ? filters.year.join(", ") : "All Years"}
           </span>

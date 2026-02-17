@@ -40,7 +40,9 @@ export default function Home() {
     .sort();
   const genres = ["All Genres", ...sortedUniqueGenres];
 
-  const uniqueYears = [...new Set(movies.map((m) => m.year))].sort((a, b) => b - a);
+  const uniqueYears = [...new Set(movies.map((m) => m.year))].sort(
+    (a, b) => b - a,
+  );
   const years = ["All Years", ...uniqueYears];
 
   // Update filter function
@@ -64,7 +66,7 @@ export default function Home() {
     if (filters.genre.length > 0) {
       filtered = filtered.filter((m) => {
         if (!m.genres) return false;
-        return filters.genre.some(g => m.genres.split("|").includes(g))
+        return filters.genre.some((g) => m.genres.split("|").includes(g));
       });
     }
 
@@ -81,7 +83,7 @@ export default function Home() {
     } else if (filters.sortBy === "title_asc") {
       filtered.sort((a, b) => a.title.localeCompare(b.title));
     }
-    
+
     setAllFilteredMovies(filtered);
     setDisplayedMovies(filtered.slice(0, MOVIES_PER_PAGE));
     setPage(1);
@@ -136,17 +138,21 @@ export default function Home() {
         onChange={updateFilter}
       />
       <div className="flex flex-wrap justify-start gap-4 mx-12">
-        {displayedMovies.map((movie) => (
-          <MovieCard
-            key={movie.movieId}
-            movieId={movie.movieId}
-            title={movie.title}
-            year={movie.year}
-            poster_url={movie.poster_url}
-            avg_rating={movie.avg_rating}
-            overview={movie.overview}
-          />
-        ))}
+        {displayedMovies.length === 0 ? (
+          <div className="text-gray-500 text-xl mt-10"><i className="fa-solid fa-ghost"></i> Ops! No movies found with these filters. Try resetting them!</div>
+        ) : (
+          displayedMovies.map((movie) => (
+            <MovieCard
+              key={movie.movieId}
+              movieId={movie.movieId}
+              title={movie.title}
+              year={movie.year}
+              poster_url={movie.poster_url}
+              avg_rating={movie.avg_rating}
+              overview={movie.overview}
+            />
+          ))
+        )}
       </div>
       <BtnToTop />
       <Footer />

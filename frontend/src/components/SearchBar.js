@@ -10,7 +10,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
     { label: "Alphabetic", value: "title_asc" },
     { label: "Top Rated", value: "rating_desc" },
     { label: "Newest", value: "year_desc" },
-    { label: "Oldest", value: "year_asc" }
+    { label: "Oldest", value: "year_asc" },
   ];
 
   return (
@@ -24,25 +24,46 @@ export default function SearchBar({ genres, years, filters, onChange }) {
             setGenreOpen(!genreOpen);
             setYearOpen(false);
           }}
-          className="p-2 bg-midnight-light text-white border-2 border-gray-400 rounded-lg cursor-pointer w-48 text-left focus:outline-none focus:ring-2 focus:ring-orange-400"
+          className="p-2 bg-midnight-light text-white border-2 border-gray-400 rounded-lg cursor-pointer w-48 text-left focus:outline-none flex items-center justify-between"
         >
-          {filters.genre}
+          <span className="truncate whitespace-nowrap overflow-hidden block" title={filters.genre.join(", ")}>
+            {filters.genre.length > 0 ? filters.genre.join(", ") : "All Genres"}
+          </span>
+          <span className="ml-2">▾</span>
         </div>
 
         {genreOpen && (
           <ul className="absolute left-0 top-full mt-1 w-full bg-midnight-light rounded-lg max-h-40 overflow-auto z-10">
-            {genres.map((genre) => (
-              <li
-                key={genre}
-                className="p-2 cursor-pointer hover:bg-orange-500 hover:text-white transition-colors duration-200"
-                onClick={() => {
-                  onChange("genre", genre);
-                  setGenreOpen(false);
-                }}
-              >
-                {genre}
-              </li>
-            ))}
+            {genres.map((genre) => {
+              const isSelected = filters.genre.includes(genre);
+              const isAllGenres = genre === "All Genres";
+
+              return (
+                <li
+                  key={genre}
+                  className={`p-2 cursor-pointer transition-colors duration-200 ${
+                    isSelected
+                      ? "bg-orange-500 text-white"
+                      : "hover:bg-orange-500/50 text-gray-200"
+                  }`}
+                  onClick={() => {
+                    if (isAllGenres) {
+                      onChange("genre", []);
+                    } else {
+                      const newGenres = isSelected
+                        ? filters.genre.filter((g) => g !== genre)
+                        : [...filters.genre, genre];
+                      onChange("genre", newGenres);
+                    }
+                  }}
+                >
+                  <div className="flex justify-between items-center">
+                    {genre}
+                    {isSelected && !isAllGenres && <span>✓</span>}
+                  </div>
+                </li>
+              );
+            })}
           </ul>
         )}
       </div>
@@ -102,7 +123,11 @@ export default function SearchBar({ genres, years, filters, onChange }) {
           }}
           className="p-2 bg-midnight-light text-white border-2 border-orange-400 rounded-lg cursor-pointer w-36 text-left focus:outline-none"
         >
-          <span className="text-white text-xs block">Sort by: {sortOptions.find(o => o.value === filters.sortBy)?.label || "Default"}</span>
+          <span className="text-white text-xs block">
+            Sort by:{" "}
+            {sortOptions.find((o) => o.value === filters.sortBy)?.label ||
+              "Default"}
+          </span>
         </div>
 
         {sortOpen && (

@@ -11,7 +11,7 @@ export default function Home() {
   // Filters state
   const [filters, setFilters] = useState({
     query: "",
-    genre: "All Genres",
+    genre: [],
     year: "All Years",
     sortBy: "default",
   });
@@ -61,10 +61,10 @@ export default function Home() {
       );
     }
 
-    if (filters.genre !== "All Genres") {
+    if (filters.genre.length > 0) {
       filtered = filtered.filter((m) => {
         if (!m.genres) return false;
-        return m.genres.split("|").includes(filters.genre);
+        return filters.genre.some(g => m.genres.split("|").includes(g))
       });
     }
 

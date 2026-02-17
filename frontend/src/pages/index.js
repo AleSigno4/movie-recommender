@@ -39,9 +39,8 @@ export default function Home() {
     .sort();
   const genres = ["All Genres", ...sortedUniqueGenres];
 
-  const years = ["All Years", ...new Set(movies.map((m) => m.year))].sort(
-    (a, b) => b - a,
-  );
+  const uniqueYears = [...new Set(movies.map((m) => m.year))].sort((a, b) => b - a);
+  const years = ["All Years", ...uniqueYears];
 
   // Update filter function
   function updateFilter(key, value) {

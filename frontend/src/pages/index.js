@@ -12,7 +12,7 @@ export default function Home() {
   const [filters, setFilters] = useState({
     query: "",
     genre: [],
-    year: "All Years",
+    year: [],
     sortBy: "default",
   });
 
@@ -68,8 +68,8 @@ export default function Home() {
       });
     }
 
-    if (filters.year !== "All Years") {
-      filtered = filtered.filter((m) => m.year === filters.year);
+    if (filters.year.length > 0) {
+      filtered = filtered.filter((m) => filters.year.includes(m.year));
     }
 
     if (filters.sortBy === "rating_desc") {

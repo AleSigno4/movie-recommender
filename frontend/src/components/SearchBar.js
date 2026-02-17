@@ -86,25 +86,54 @@ export default function SearchBar({ genres, years, filters, onChange }) {
             setYearOpen(!yearOpen);
             setGenreOpen(false);
           }}
-          className="p-2 bg-midnight-light text-white border-2 border-gray-400 rounded-lg cursor-pointer w-48 text-left focus:outline-none focus:ring-2 focus:ring-orange-400"
+          className="p-2 bg-midnight-light text-white border-2 border-gray-400 rounded-lg cursor-pointer w-48 text-left focus:outline-none flex items-center justify-between"
         >
-          {filters.year}
+          <span
+            className="truncate whitespace-nowrap overflow-hidden block"
+            title={filters.year.join(", ")}
+          >
+            {filters.year.length > 0 ? filters.year.join(", ") : "All Years"}
+          </span>
+          <span className="ml-2">▾</span>
         </div>
 
         {yearOpen && (
-          <ul className="absolute left-0 top-full mt-1 w-full bg-midnight-light rounded-lg backdrop-blur-md max-h-40 overflow-auto z-10">
-            {years.map((year) => (
-              <li
-                key={year}
-                className="p-2 cursor-pointer hover:bg-orange-500 hover:text-white transition-colors duration-200"
-                onClick={() => {
-                  onChange("year", year);
-                  setYearOpen(false);
-                }}
-              >
-                {year}
-              </li>
-            ))}
+          <ul className="absolute left-0 top-full mt-1 w-full bg-midnight-light rounded-lg max-h-60 overflow-auto z-10">
+            {years.map((year) => {
+              const isSelected = filters.year.includes(year);
+              const isAllYears = year === "All Years";
+              return (
+                <li
+                  key={year}
+                  className={`p-2 cursor-pointer transition-colors duration-200 ${
+                    isSelected
+                      ? "bg-orange-500 text-white"
+                      : "hover:bg-orange-500/50 text-gray-200"
+                  }`}
+                  onClick={() => {
+                    if (isAllYears) {
+                      onChange("year", []);
+                    } else {
+                      const newYears = isSelected
+                        ? filters.year.filter((y) => y !== year)
+                        : [...filters.year, year];
+                      onChange("year", newYears);
+                    }
+                  }}
+                >
+                  <div className="flex justify-between items-center">
+                    {year}
+                    {isSelected && !isAllYears && <span>✓</span>}
+                  </div>
+                </li>
+              );
+            })}
+            <li
+              className="sticky bottom-0 bg-midnight p-2 border-t border-gray-600 text-center bg-orange-600 hover:bg-orange-700 font-bold cursor-pointer transition-colors"
+              onClick={() => setYearOpen(false)}
+            >
+              Apply Filters
+            </li>
           </ul>
         )}
       </div>

@@ -26,14 +26,17 @@ export default function SearchBar({ genres, years, filters, onChange }) {
           }}
           className="p-2 bg-midnight-light text-white border-2 border-gray-400 rounded-lg cursor-pointer w-48 text-left focus:outline-none flex items-center justify-between"
         >
-          <span className="truncate whitespace-nowrap overflow-hidden block" title={filters.genre.join(", ")}>
+          <span
+            className="truncate whitespace-nowrap overflow-hidden block"
+            title={filters.genre.join(", ")}
+          >
             {filters.genre.length > 0 ? filters.genre.join(", ") : "All Genres"}
           </span>
           <span className="ml-2">▾</span>
         </div>
 
         {genreOpen && (
-          <ul className="absolute left-0 top-full mt-1 w-full bg-midnight-light rounded-lg max-h-40 overflow-auto z-10">
+          <ul className="absolute left-0 top-full mt-1 w-full bg-midnight-light rounded-lg max-h-60 overflow-auto z-10">
             {genres.map((genre) => {
               const isSelected = filters.genre.includes(genre);
               const isAllGenres = genre === "All Genres";
@@ -64,6 +67,12 @@ export default function SearchBar({ genres, years, filters, onChange }) {
                 </li>
               );
             })}
+            <li
+              className="sticky bottom-0 bg-midnight p-2 border-t border-gray-600 text-center bg-orange-600 hover:bg-orange-700 font-bold cursor-pointer transition-colors"
+              onClick={() => setGenreOpen(false)}
+            >
+              Apply Filters
+            </li>
           </ul>
         )}
       </div>

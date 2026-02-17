@@ -1,5 +1,8 @@
-// Main page component that displays header, search bar, movie cards with infinite scroll, and footer. It also handles filtering and sorting of movies based on user input.
-
+/**
+ * Home Page Component
+ * Core functionality: Client-side filtering, dynamic metadata extraction (genres/years),
+ * and manual infinite scrolling for performance optimization.
+ */
 import { useState, useEffect } from "react";
 import Header from "../components/Header";
 import MovieCard from "../components/MovieCard";
@@ -9,11 +12,11 @@ import { getMovies } from "../services/api";
 import BtnToTop from "../components/BtnToTop";
 import MovieCardSkeleton from "../components/MovieCardSkeleton";
 
-// Number of movies to load per page for infinite scroll
+// Pagination constant to manage batch rendering
 const MOVIES_PER_PAGE = 20;
 
 export default function Home() {
-  // Filters state
+  /* --- STATE MANAGEMENT --- */
   const [filters, setFilters] = useState({
     query: "",
     genre: [],
@@ -21,15 +24,16 @@ export default function Home() {
     sortBy: "default",
   });
 
-  // Movies and loading state
-  const [movies, setMovies] = useState([]);
-  const [allFilteredMovies, setAllFilteredMovies] = useState([]);
-  const [displayedMovies, setDisplayedMovies] = useState([]);
+  const [movies, setMovies] = useState([]); // Master list from API
+  const [allFilteredMovies, setAllFilteredMovies] = useState([]); // Results after applying filters
+  const [displayedMovies, setDisplayedMovies] = useState([]); // Subset for infinite scroll
   const [page, setPage] = useState(1);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Extract genres and years for dropdowns
+  /* --- DATA EXTRACTION --- */
+
+  // Dynamically extract unique genres from the movie dataset
   const sortedUniqueGenres = [
     ...new Set(
       movies.flatMap((m) => {
@@ -45,29 +49,27 @@ export default function Home() {
     .sort();
   const genres = ["All Genres", ...sortedUniqueGenres];
 
-  const uniqueYears = [...new Set(movies.map((m) => m.year))].sort(
-    (a, b) => b - a,
-  );
+  // Extract unique years for the filter dropdown
+  const uniqueYears = [...new Set(movies.map((m) => m.year))].sort((a, b) => b - a,);
   const years = ["All Years", ...uniqueYears];
 
-  // Update filter function
+  /* --- FILTER LOGIC --- */
   function updateFilter(key, value) {
-    setFilters((prev) => ({
-      ...prev,
-      [key]: value,
-    }));
+    setFilters((prev) => ({...prev, [key]: value,}));
   }
 
-  // Effect to filter movies when filters change (title, genre, year)
+  // Effect: Handles multi-criteria filtering and sorting on the client side
   useEffect(() => {
     let filtered = [...movies];
 
+    // 1. Filter by search query
     if (filters.query) {
       filtered = filtered.filter((m) =>
         m.title.toLowerCase().includes(filters.query.toLowerCase()),
       );
     }
 
+    // 2. Filter by multiple genres (OR logic)
     if (filters.genre.length > 0) {
       filtered = filtered.filter((m) => {
         if (!m.genres) return false;
@@ -75,10 +77,12 @@ export default function Home() {
       });
     }
 
+    // 3. Filter by year
     if (filters.year.length > 0) {
       filtered = filtered.filter((m) => filters.year.includes(m.year));
     }
 
+    // 4. Handle Sorting
     if (filters.sortBy === "rating_desc") {
       filtered.sort((a, b) => (b.avg_rating || 0) - (a.avg_rating || 0));
     } else if (filters.sortBy === "year_desc") {
@@ -90,11 +94,12 @@ export default function Home() {
     }
 
     setAllFilteredMovies(filtered);
-    setDisplayedMovies(filtered.slice(0, MOVIES_PER_PAGE));
+    setDisplayedMovies(filtered.slice(0, MOVIES_PER_PAGE)); // Reset scroll to page 1
     setPage(1);
   }, [filters, movies]);
 
-  // Initial load of movies (20 films)
+  /* --- API FETCHING --- */
+
   useEffect(() => {
     setLoading(true);
     getMovies()
@@ -109,9 +114,11 @@ export default function Home() {
       });
   }, []);
 
-  // Infinite scroll effect
+  /* --- INFINITE SCROLL --- */
+
   useEffect(() => {
     const handleScroll = () => {
+      // Trigger loadMore when user reaches 300px from the bottom
       if (
         window.innerHeight + window.scrollY >=
         document.body.offsetHeight - 300
@@ -121,13 +128,11 @@ export default function Home() {
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [displayedMovies, movies, page]);
+  }, [allFilteredMovies, page]);
 
-  // Load more movies for infinite scroll
   const loadMore = () => {
     const start = page * MOVIES_PER_PAGE;
     const end = start + MOVIES_PER_PAGE;
-
     const moreMovies = allFilteredMovies.slice(start, end);
 
     if (moreMovies.length > 0) {
@@ -136,7 +141,7 @@ export default function Home() {
     }
   };
 
-  if (error) return <div className="text-red-500">{error}</div>;
+  if (error) return <div className="text-red-500 mt-20">{error}</div>;
 
   return (
     <>
@@ -148,12 +153,10 @@ export default function Home() {
         onChange={updateFilter}
       />
       <div className="flex flex-wrap justify-start gap-4 mx-12">
-        {/* Show skeletons while loading, otherwise show movie cards */}
+        {/* Render Skeleton placeholders during initial load */}
         {loading
           ?
-            Array.from({ length: 10 }).map((_, i) => (
-              <MovieCardSkeleton key={i} />
-            ))
+            Array.from({ length: 10 }).map((_, i) => (<MovieCardSkeleton key={i} />))
           : displayedMovies.map((movie) => (
               <MovieCard
                 key={movie.movieId}
@@ -166,7 +169,7 @@ export default function Home() {
               />
             ))}
           
-        {/* Show message if no movies found after loading */}
+        {/* Empty State: Displayed when filters return no results */}
         {!loading && displayedMovies.length === 0 && (
           <div className="text-gray-500 text-xl mt-10">
             <i className="fa-solid fa-ghost"></i> Ops! No movies found with these filters. Try resetting them!

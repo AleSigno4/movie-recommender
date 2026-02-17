@@ -5,6 +5,7 @@ import SearchBar from "../components/SearchBar";
 import Footer from "../components/Footer";
 import { getMovies } from "../services/api";
 import BtnToTop from "../components/BtnToTop";
+import MovieCardSkeleton from "../components/MovieCardSkeleton";
 
 const MOVIES_PER_PAGE = 20;
 
@@ -23,6 +24,7 @@ export default function Home() {
   const [displayedMovies, setDisplayedMovies] = useState([]);
   const [page, setPage] = useState(1);
   const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   // Extract genres and years for dropdowns
   const sortedUniqueGenres = [
@@ -91,12 +93,17 @@ export default function Home() {
 
   // Initial load of movies (20 films)
   useEffect(() => {
+    setLoading(true);
     getMovies()
       .then((data) => {
         setMovies(data);
         setDisplayedMovies(data.slice(0, MOVIES_PER_PAGE));
+        setLoading(false);
       })
-      .catch((err) => setError(err.message));
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
   }, []);
 
   // Infinite scroll effect
@@ -138,20 +145,26 @@ export default function Home() {
         onChange={updateFilter}
       />
       <div className="flex flex-wrap justify-start gap-4 mx-12">
-        {displayedMovies.length === 0 ? (
-          <div className="text-gray-500 text-xl mt-10"><i className="fa-solid fa-ghost"></i> Ops! No movies found with these filters. Try resetting them!</div>
-        ) : (
-          displayedMovies.map((movie) => (
-            <MovieCard
-              key={movie.movieId}
-              movieId={movie.movieId}
-              title={movie.title}
-              year={movie.year}
-              poster_url={movie.poster_url}
-              avg_rating={movie.avg_rating}
-              overview={movie.overview}
-            />
-          ))
+        {loading
+          ?
+            Array.from({ length: 10 }).map((_, i) => (
+              <MovieCardSkeleton key={i} />
+            ))
+          : displayedMovies.map((movie) => (
+              <MovieCard
+                key={movie.movieId}
+                movieId={movie.movieId}
+                title={movie.title}
+                year={movie.year}
+                poster_url={movie.poster_url}
+                avg_rating={movie.avg_rating}
+                overview={movie.overview}
+              />
+            ))}
+        {!loading && displayedMovies.length === 0 && (
+          <div className="text-gray-500 text-xl mt-10">
+            <i className="fa-solid fa-ghost"></i> Ops! No movies found with these filters. Try resetting them!
+          </div>
         )}
       </div>
       <BtnToTop />

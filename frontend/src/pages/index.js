@@ -4,6 +4,7 @@ import MovieCard from "../components/MovieCard";
 import SearchBar from "../components/SearchBar";
 import Footer from "../components/Footer";
 import { getMovies } from "../services/api";
+import BtnToTop from "../components/BtnToTop";
 
 const MOVIES_PER_PAGE = 20;
 
@@ -147,6 +148,7 @@ export default function Home() {
           />
         ))}
       </div>
+      <BtnToTop />
       <Footer />
     </>
   );

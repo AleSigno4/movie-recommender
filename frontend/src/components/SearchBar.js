@@ -3,6 +3,7 @@
  * Provides multi-select filters for Genre and Year, a text search input, and a dropdown for sorting results.
  */
 import { use, useState, useRef, useEffect } from "react";
+import DropdownFilter from "./DropdownFilter";
 
 export default function SearchBar({ genres, years, filters, onChange }) {
   // Local state to manage dropdown visibility
@@ -42,136 +43,11 @@ export default function SearchBar({ genres, years, filters, onChange }) {
     <div ref={searchBarRef} className="flex items-center space-x-4 my-5 mt-2 mx-12">
 
       {/* --- GENRE FILTER --- */}
-      <label className="text-white text-lg">Genre:</label>
-      {/* Dropdown Trigger */}
-      <div className="relative">
-        <div
-          onClick={() => {
-            setGenreOpen(!genreOpen);
-            setYearOpen(false); // Close other menus to avoid UI overlap
-            setSortOpen(false);
-          }}
-          className="p-2 bg-midnight-light text-white border-2 border-gray-400 rounded-lg cursor-pointer w-48 text-left focus:outline-none flex items-center justify-between"
-        >
-          <span
-            className="truncate whitespace-nowrap overflow-hidden block"
-            title={filters.genre.join(", ")} // Native tooltip for long selections
-          >
-            {filters.genre.length > 0 ? filters.genre.join(", ") : "All Genres"}
-          </span>
-          <span className="ml-2">▾</span>
-        </div>
-
-        {/* Multi-select Genre Menu */}
-        {genreOpen && (
-          <ul className="absolute left-0 top-full mt-1 w-full bg-midnight-light rounded-lg max-h-60 overflow-auto z-10">
-            {genres.map((genre) => {
-              const isSelected = filters.genre.includes(genre);
-              const isAllGenres = genre === "All Genres";
-
-              return (
-                <li
-                  key={genre}
-                  className={`p-2 cursor-pointer transition-colors duration-200 ${
-                    isSelected
-                      ? "bg-orange-500 text-white"
-                      : "hover:bg-orange-500/50 text-gray-200"
-                  }`}
-                  onClick={() => {
-                    if (isAllGenres) {
-                      onChange("genre", []);  // Reset selection
-                    } else {
-                      // Toggle genre in selection array
-                      const newGenres = isSelected
-                        ? filters.genre.filter((g) => g !== genre)
-                        : [...filters.genre, genre];
-                      onChange("genre", newGenres);
-                    }
-                  }}
-                >
-                  <div className="flex justify-between items-center">
-                    {genre}
-                    {isSelected && !isAllGenres && <span>✓</span>}
-                  </div>
-                </li>
-              );
-            })}
-            {/* Sticky Close Button for better UX on long lists */}
-            <li
-              className="sticky bottom-0 bg-midnight p-2 border-t border-gray-600 text-center bg-orange-600 hover:bg-orange-700 font-bold cursor-pointer transition-colors"
-              onClick={() => setGenreOpen(false)}
-            >
-              Apply Filters
-            </li>
-          </ul>
-        )}
-      </div>
+      <DropdownFilter label="Genre" options={genres} selected={filters.genre} onChange={(newGenre) => onChange("genre", newGenre)} placeholder="All Genres" />
 
       {/* --- YEAR FILTER --- */}
-      <label className="text-white text-lg">Year:</label>
-      {/* Dropdown */}
-      <div className="relative">
-        <div
-          onClick={() => {
-            setYearOpen(!yearOpen);
-            setGenreOpen(false); // Close other menus to avoid UI overlap
-            setSortOpen(false);
-          }}
-          className="p-2 bg-midnight-light text-white border-2 border-gray-400 rounded-lg cursor-pointer w-48 text-left focus:outline-none flex items-center justify-between"
-        >
-          <span
-            className="truncate whitespace-nowrap overflow-hidden block"
-            title={
-              filters.year.length > 0
-                ? filters.year.map(String).join(", ")
-                : "All Years"
-            }
-          >
-            {filters.year.length > 0 ? filters.year.join(", ") : "All Years"}
-          </span>
-          <span className="ml-2">▾</span>
-        </div>
-        
-        {yearOpen && (
-          <ul className="absolute left-0 top-full mt-1 w-full bg-midnight-light rounded-lg max-h-60 overflow-auto z-10">
-            {years.map((year) => {
-              const isSelected = filters.year.includes(year);
-              const isAllYears = year === "All Years";
-              return (
-                <li
-                  key={year}
-                  className={`p-2 cursor-pointer transition-colors duration-200 ${
-                    isSelected
-                      ? "bg-orange-500 text-white"
-                      : "hover:bg-orange-500/50 text-gray-200"
-                  }`}
-                  onClick={() => {
-                    if (isAllYears) {
-                      onChange("year", []);
-                    } else {
-                      const newYears = isSelected
-                        ? filters.year.filter((y) => y !== year)
-                        : [...filters.year, year];
-                      onChange("year", newYears);
-                    }
-                  }}
-                >
-                  <div className="flex justify-between items-center">
-                    {year}
-                    {isSelected && !isAllYears && <span>✓</span>}
-                  </div>
-                </li>
-              );
-            })}
-            <li
-              className="sticky bottom-0 bg-midnight p-2 border-t border-gray-600 text-center bg-orange-600 hover:bg-orange-700 font-bold cursor-pointer transition-colors"
-              onClick={() => setYearOpen(false)}
-            >
-              Apply Filters
-            </li>
-          </ul>
-        )}
-      </div>
+      <DropdownFilter label="Year" options={years} selected={filters.year} onChange={(newYear) => onChange("year", newYear)} placeholder="All Years" />
+
 
       {/* --- TEXT SEARCH INPUT --- */}
       <div className="relative flex-1 ml-6">

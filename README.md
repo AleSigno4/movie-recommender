@@ -46,6 +46,7 @@ A full-stack movie discovery platform that combines a **Next.js** frontend with 
 └── frontend/
     ├── src/components/   # Reusable UI (Cards, Skeletons, SearchBar)
     ├── src/pages/        # Next.js Pages & Dynamic Routes
+    └── src/hooks/        # Custom Hook (Click outside dropdown)
     └── src/services/     # API integration (Fetch client)
     └── src/styles/       # CSS global styles
 ```

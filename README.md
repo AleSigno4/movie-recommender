@@ -6,19 +6,19 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-A sophisticated movie discovery platform that combines a **Next.js** frontend with a **FastAPI** backend and a **Data Science** engine. This project demonstrates a complete end-to-end pipeline: from raw data cleaning and API-based enrichment to a modern, responsive user interface.
+A full-stack movie discovery platform that combines a **Next.js** frontend with a **FastAPI** backend and a **Data Science** engine. This project demonstrates a complete end-to-end pipeline: from raw data cleaning and API-based enrichment to a modern, responsive user interface.
 
 ## Key Features
 
 ### Backend & Data Science
-* **Hybrid Recommendation Engine**: Uses **Cosine Similarity** on genre vectors combined with a popularity bias (average ratings) to suggest relevant titles.
+* **Hybrid Recommendation Engine**: Uses **Cosine Similarity** on genre vectors combined with a popularity bias (average ratings).
 * **Automated Data Enrichment**: Custom Python scripts to fetch high-resolution posters, runtimes, and overviews via **TMDb API**.
-* **Clean Data Pipeline**: Comprehensive preprocessing of the MovieLens dataset using **Pandas**, including one-hot encoding for genres.
-* **High-Performance API**: Built with FastAPI, featuring Pydantic models for strict data validation and Swagger documentation.
+* **Clean Data Pipeline**: Comprehensive preprocessing of the MovieLens dataset using **Pandas**.
+* **API Documentation**: Built with FastAPI, featuring auto-generated Swagger documentation at `/docs`.
 
 ### Frontend & UX
 * **Infinite Scrolling**: Efficiently handles large datasets by loading movies in chunks as the user scrolls.
-* **Dynamic Filtering**: Instant client-side filtering by title, genre, and release year.
+* **Dynamic Filtering**: Real-time client-side filtering by title, genre, and release year.
 * **Interactive Details Page**: A dynamic routing system (`/movies/[id]`) showing deep-dive metadata and a custom-built recommendation carousel.
 * **Skeleton Loading**: Professional "Skeleton" placeholders to prevent layout shift during data fetching.
 * **Midnight UI**: A custom-designed dark theme using **Tailwind CSS** with glassmorphism effects and smooth transitions.
@@ -51,7 +51,16 @@ A sophisticated movie discovery platform that combines a **Next.js** frontend wi
 
 ## Getting Started
 
-### 1. Backend Setup
+### 1. Initial Data Setup (Mandatory)
+Since large datasets and local configurations are excluded from the repository, follow these steps to initialize the data:
+1. Create a `backend/data/raw/` folder and place the MovieLens `movies.csv` and `ratings.csv` inside.
+2. Ensure you have a **TMDb API Key** configured in your environment variables.
+3. Run the enrichment script to generate the final dataset:
+   ```bash
+   python -m app.utils.enrich_data
+   ```
+
+### 2. Backend Setup
 ```bash
 cd backend
 python -m venv venv
@@ -65,14 +74,11 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the enrichment script to fetch posters (requires TMDb API Key)
-python -m app.utils.enrich_data
-
 # Start the FastAPI server
 uvicorn app.main:app --reload
 ```
 
-### 2. Backend Setup
+### 2. Frontend Setup
 ```bash
 cd frontend
 npm install

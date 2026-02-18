@@ -7,29 +7,19 @@ import DropdownFilter from "./DropdownFilter";
 
 export default function SearchBar({ genres, years, filters, onChange }) {
   // Local state to manage dropdown visibility
-  const [genreOpen, setGenreOpen] = useState(false);
-  const [yearOpen, setYearOpen] = useState(false);
   const [sortOpen, setSortOpen] = useState(false);
 
-  // Ref for handling clicks outside the dropdowns to close them
-  const searchBarRef = useRef(null);
-
+  // Ref for detecting clicks outside the sort dropdown
+  const sortRef = useRef(null);
   useEffect(() => {
     function handleClickOutside(event) {
-      if (searchBarRef.current && !searchBarRef.current.contains(event.target)) {
-        setGenreOpen(false);
-        setYearOpen(false);
+      if (sortRef.current && !sortRef.current.contains(event.target)) {
         setSortOpen(false);
       }
     }
-
     document.addEventListener("mousedown", handleClickOutside);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-
 
   const sortOptions = [
     { label: "Default", value: "default" },
@@ -40,7 +30,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
   ];
 
   return (
-    <div ref={searchBarRef} className="flex items-center space-x-4 my-5 mt-2 mx-12">
+    <div className="flex items-center space-x-4 my-5 mt-2 mx-12">
 
       {/* --- GENRE FILTER --- */}
       <DropdownFilter label="Genre" options={genres} selected={filters.genre} onChange={(newGenre) => onChange("genre", newGenre)} placeholder="All Genres" />
@@ -63,8 +53,6 @@ export default function SearchBar({ genres, years, filters, onChange }) {
           onChange={(e) => onChange("query", e.target.value)}
           onFocus={() => {
             // Auto-close any open dropdown when typing
-            setGenreOpen(false);
-            setYearOpen(false);
             setSortOpen(false);
           }}
         />
@@ -81,12 +69,10 @@ export default function SearchBar({ genres, years, filters, onChange }) {
       </div>
 
       {/* --- SORTING OPTIONS --- */}
-      <div className="relative">
+      <div className="relative" ref={sortRef}>
         <div
           onClick={() => {
             setSortOpen(!sortOpen);
-            setYearOpen(false);
-            setGenreOpen(false);
           }}
           className="p-2 bg-midnight-light text-white border-2 border-orange-400 rounded-lg cursor-pointer w-36 text-left focus:outline-none"
         >

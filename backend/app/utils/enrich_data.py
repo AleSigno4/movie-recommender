@@ -5,12 +5,18 @@ from pathlib import Path
 import time
 import urllib3
 import re
+import os
+from dotenv import load_dotenv
 
 # Disable warnings for unverified HTTPS requests (common when testing TMDb locally)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # API Configuration
-API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNmE2N2MyYTRjMTE4MzYxYzNiMzI3NmRiMTI2NTk4ZSIsIm5iZiI6MTc3MDM3MTkwNi40NDQsInN1YiI6IjY5ODViYjQyZGI3N2IyZTk4YzZiNTcxOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.yETBI3prDZR7U1H-1TKPe7YX-CXezHIwAdq98aeivfo" 
+load_dotenv()
+API_KEY = os.getenv("TMDB_API_KEY")
+if not API_KEY:
+    raise ValueError("Missing TMDB_API_KEY! Please check your .env file.")
+
 BASE_URL = "https://api.themoviedb.org/3/movie/"
 IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
 

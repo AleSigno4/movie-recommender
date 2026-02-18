@@ -2,13 +2,33 @@
  * SearchBar Component
  * Provides multi-select filters for Genre and Year, a text search input, and a dropdown for sorting results.
  */
-import { useState } from "react";
+import { use, useState, useRef, useEffect } from "react";
 
 export default function SearchBar({ genres, years, filters, onChange }) {
   // Local state to manage dropdown visibility
   const [genreOpen, setGenreOpen] = useState(false);
   const [yearOpen, setYearOpen] = useState(false);
   const [sortOpen, setSortOpen] = useState(false);
+
+  // Ref for handling clicks outside the dropdowns to close them
+  const searchBarRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (searchBarRef.current && !searchBarRef.current.contains(event.target)) {
+        setGenreOpen(false);
+        setYearOpen(false);
+        setSortOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
 
   const sortOptions = [
     { label: "Default", value: "default" },
@@ -19,7 +39,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
   ];
 
   return (
-    <div className="flex items-center space-x-4 my-5 mt-2 mx-12">
+    <div ref={searchBarRef} className="flex items-center space-x-4 my-5 mt-2 mx-12">
 
       {/* --- GENRE FILTER --- */}
       <label className="text-white text-lg">Genre:</label>
@@ -29,6 +49,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
           onClick={() => {
             setGenreOpen(!genreOpen);
             setYearOpen(false); // Close other menus to avoid UI overlap
+            setSortOpen(false);
           }}
           className="p-2 bg-midnight-light text-white border-2 border-gray-400 rounded-lg cursor-pointer w-48 text-left focus:outline-none flex items-center justify-between"
         >
@@ -94,6 +115,7 @@ export default function SearchBar({ genres, years, filters, onChange }) {
           onClick={() => {
             setYearOpen(!yearOpen);
             setGenreOpen(false); // Close other menus to avoid UI overlap
+            setSortOpen(false);
           }}
           className="p-2 bg-midnight-light text-white border-2 border-gray-400 rounded-lg cursor-pointer w-48 text-left focus:outline-none flex items-center justify-between"
         >

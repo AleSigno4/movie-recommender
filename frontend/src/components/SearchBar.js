@@ -4,6 +4,7 @@
  */
 import { use, useState, useRef, useEffect } from "react";
 import DropdownFilter from "./DropdownFilter";
+import useClickOutside from "../hooks/useClickOutside";
 
 export default function SearchBar({ genres, years, filters, onChange }) {
   // Local state to manage dropdown visibility
@@ -11,16 +12,8 @@ export default function SearchBar({ genres, years, filters, onChange }) {
 
   // Ref for detecting clicks outside the sort dropdown
   const sortRef = useRef(null);
-  useEffect(() => {
-    function handleClickOutside(event) {
-      if (sortRef.current && !sortRef.current.contains(event.target)) {
-        setSortOpen(false);
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
 
+  useClickOutside(sortRef, () => setSortOpen(false));
   const sortOptions = [
     { label: "Default", value: "default" },
     { label: "Alphabetic", value: "title_asc" },

@@ -4,6 +4,7 @@
  * Handles local open/close state while lifting selection logic to the parent.
  */
 import { useState, useRef, useEffect } from "react";
+import useClickOutside from "../hooks/useClickOutside";
 
 export default function DropdownFilter({
   label,
@@ -18,24 +19,8 @@ export default function DropdownFilter({
   // Reference to the main container for detecting clicks outside the component
   const dropdownRef = useRef(null);
 
-  useEffect(() => {
-    /**
-     * Closes the dropdown if the user clicks anywhere outside of the dropdownRef container.
-     */
-    const handleClickOutside = (e) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
-        setIsOpen(false);
-      }
-    };
-
-    // Attach event listener to the document
-    document.addEventListener("mousedown", handleClickOutside);
-
-    // Cleanup the event listener on component unmount to prevent memory leaks
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
+  // // Replaces manual useEffect: handles auto-closing when clicking outside
+  useClickOutside(dropdownRef, () => setIsOpen(false));
 
   return (
     <div className="flex items-center space-x-3" ref={dropdownRef}>

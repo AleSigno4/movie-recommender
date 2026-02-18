@@ -1,73 +1,89 @@
-# Movie Recommender Web App
+# Film Finder: Full-Stack Recommendation System
 
-A modern, responsive movie discovery platform built with **Next.js** and **Tailwind CSS**. This application allows users to browse a library of films, view detailed information, and receive personalized movie recommendations powered by a dedicated backend.
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-## 🚀 Features
+A sophisticated movie discovery platform that combines a **Next.js** frontend with a **FastAPI** backend and a **Data Science** engine. This project demonstrates a complete end-to-end pipeline: from raw data cleaning and API-based enrichment to a modern, responsive user interface.
 
-* **Dynamic Movie Gallery**: Browse an extensive collection of movies with high-quality posters and metadata.
-* **Interactive Movie Details**: Detailed view for each film including overview, release year, genres, and ratings.
-* **Smart Recommendations Carousel**: 
-    * Horizontal scrolling "window" for similar titles.
-    * Interactive navigation arrows with backdrop-blur effects.
-    * "Snap-center" alignment for a premium feel.
-* **Optimized UX**:
-    * **Dynamic Loading States**: Prevents layout flickering during navigation.
-    * **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
-    * **Hover Animations**: Smooth scaling effects and overview reveals on movie cards.
-* **Standardized UI**: Fixed-ratio posters and title alignment to ensure a clean, symmetrical layout regardless of content length.
+## Key Features
 
-## 🛠️ Tech Stack
+### Backend & Data Science
+* **Hybrid Recommendation Engine**: Uses **Cosine Similarity** on genre vectors combined with a popularity bias (average ratings) to suggest relevant titles.
+* **Automated Data Enrichment**: Custom Python scripts to fetch high-resolution posters, runtimes, and overviews via **TMDb API**.
+* **Clean Data Pipeline**: Comprehensive preprocessing of the MovieLens dataset using **Pandas**, including one-hot encoding for genres.
+* **High-Performance API**: Built with FastAPI, featuring Pydantic models for strict data validation and Swagger documentation.
 
-* **Frontend**: [Next.js](https://nextjs.org/) (React)
-* **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-* **State Management**: React Hooks (`useState`, `useEffect`, `useRef`)
-* **API**: Integration with a Python/FastAPI backend via Fetch API.
+### Frontend & UX
+* **Infinite Scrolling**: Efficiently handles large datasets by loading movies in chunks as the user scrolls.
+* **Dynamic Filtering**: Instant client-side filtering by title, genre, and release year.
+* **Interactive Details Page**: A dynamic routing system (`/movies/[id]`) showing deep-dive metadata and a custom-built recommendation carousel.
+* **Skeleton Loading**: Professional "Skeleton" placeholders to prevent layout shift during data fetching.
+* **Midnight UI**: A custom-designed dark theme using **Tailwind CSS** with glassmorphism effects and smooth transitions.
 
-## 📦 Installation & Setup
+## Tech Stack
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/movie-recommender-web.git](https://github.com/your-username/movie-recommender-web.git)
-    cd movie-recommender-web
-    ```
+| Area | Technologies |
+| :--- | :--- |
+| **Frontend** | Next.js, React 19, Tailwind CSS, FontAwesome |
+| **Backend** | Python 3.x, FastAPI, Uvicorn, Pydantic |
+| **Data Science** | Pandas, Scikit-Learn, NumPy, Matplotlib, Seaborn |
+| **Tools** | TMDb API, Pathlib, Regex, Jupyter Notebooks |
 
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3.  **Configure API Endpoint:**
-    Ensure your backend is running. The app connects to:
-    -   `http://localhost:8000/movies` for the general list.
-    -   `http://localhost:8000/movies/{id}/recommendations` for suggestions.
-
-4.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
-    Open [http://localhost:3000](http://localhost:3000) to view the app.
-
-## 📂 Project Structure
+## Project Architecture
 
 ```text
-├── components/
-│   ├── Header.js         # Navigation and Logo
-│   ├── Footer.js         # Site footer
-│   └── MovieCard.js      # Reusable card with hover effects and standardized layout
-├── pages/
-│   ├── index.js          # Main landing page (Movie Grid)
-│   └── movies/
-│       └── [movieId].js  # Dynamic route for movie details & recommendations
-├── services/
-│   └── api.js            # Fetch logic for movie data
-└── styles/
-    └── globals.css       # Custom scrollbar-hide and global styles
+├── backend/
+│   ├── app/
+│   │   ├── api/          # FastAPI Routers (Endpoints)
+│   │   ├── models/       # Pydantic Schemas
+│   │   ├── recommender/  # Cosine Similarity Engine
+│   │   └── services/     # Data cleaning & business logic
+│   ├── data/             # Raw & Enriched CSV datasets
+│   └── notebooks/        # EDA & Preprocessing insights
+└── frontend/
+    ├── src/components/   # Reusable UI (Cards, Skeletons, SearchBar)
+    ├── src/pages/        # Next.js Pages & Dynamic Routes
+    └── src/services/     # API integration (Fetch client)
 ```
 
-## 🎨 Design Notes
-* **Midnight Theme**: A custom deep dark-mode palette for better contrast.
-* **Glassmorphism**: Use of backdrop-blur and semi-transparent backgrounds for a modern UI.
-* **Custom Utilities**: Implementation of scrollbar-hide for a cleaner carousel look without losing scroll functionality.
+## Getting Started
 
-## 📝 License
-This project is licensed under the MIT License.
+### 1. Backend Setup
+```bash
+cd backend
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+.\venv\Scripts\activate  
+# On Mac/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the enrichment script to fetch posters (requires TMDb API Key)
+python -m app.utils.enrich_data
+
+# Start the FastAPI server
+uvicorn app.main:app --reload
+```
+
+### 2. Backend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Open `http://localhost:3000` to explore the app.
+
+## Data Exploration & Engineering
+The project includes Jupyter Notebooks in the `backend/notebooks` folder that showcase:
+* **EDA**: Visualizing genre distribution and rating trends.
+* **Feature Engineering**: The process of transforming categorical genres into binary feature vectors for the recommender.
+
+## License
+This project is licensed under the MIT License. Created by Alessandro Signori.

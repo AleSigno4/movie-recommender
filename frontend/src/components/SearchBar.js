@@ -2,7 +2,7 @@
  * SearchBar Component
  * Provides multi-select filters for Genre and Year, a text search input, and a dropdown for sorting results.
  */
-import { use, useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import DropdownFilter from "./DropdownFilter";
 import useClickOutside from "../hooks/useClickOutside";
 
